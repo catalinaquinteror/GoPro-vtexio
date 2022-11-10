@@ -1,0 +1,37 @@
+{
+    "header-layout.mobile": {
+        "title": "header mobile",
+        "children": [
+            "sticky-layout#mobile",
+            "header-row#header__top--mobile"
+        ]
+    },
+    "sticky-layout#mobile": {
+        "children": [
+            "flex-layout.row#mobile"
+        ]
+    },
+    "flex-layout.row#mobile": {
+        "children": [
+            "drawer",
+            "logo",
+            "flex-layout.col#spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
+    "drawer": {
+        "children": []
+    },
+    "header-row#header__top--mobile": {
+        "children": [
+            // "rich-text#test2"
+        ]
+    }
+}

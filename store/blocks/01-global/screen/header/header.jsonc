@@ -1,0 +1,57 @@
+{
+  "header": {
+    "title": "header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-row#header__top": {
+    "title": "header top",
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
+      "login",
+      // "modal-trigger#header__top--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "logo#header__top--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/gopro-logo.svg",
+      "width": 120,
+      "href": "/"
+    }
+  },
+  "header-row#header__middle": {
+    "title": "header medio",
+    "children": [
+      "drawer#header__mobile--menu"
+      // "rich-text#test",
+      // "header-spacer",
+      // "rich-text#test"
+      // "header-force-center#header__middle"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  },
+  "minicart.v2": {
+    "children": []
+  },
+  "header-force-center#header__middle": {
+    "children": [
+      "logo#header__top--logo"
+    ]
+  }
+}
