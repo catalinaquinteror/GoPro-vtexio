@@ -1,0 +1,15 @@
+{
+    "menu#header__menu-desktop": {
+        "children": [
+            "menu-item#department__camaras",
+            "menu-item#department__accesorios",
+            "menu-item#department__aplicaciones",
+            "menu-item#department__noticias",
+            "menu-item#department__contacto",
+            "menu-item#department__q&a"
+        ],
+        "props": {
+            // "orientation": "vertical"
+        }
+    }
+}

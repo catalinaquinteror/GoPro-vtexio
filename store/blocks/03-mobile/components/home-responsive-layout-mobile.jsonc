@@ -1,0 +1,11 @@
+{
+    "responsive-layout.mobile#home__info--mobile": {
+        "title": "Componente telefono",
+        "children": ["rich-text#home__info--mobile"]
+    },
+    "rich-text#home__info--mobile": {
+        "props": {
+        "text": "Resolución mobile"
+        }
+    }
+}
