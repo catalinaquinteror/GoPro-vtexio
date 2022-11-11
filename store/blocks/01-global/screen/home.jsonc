@@ -1,0 +1,25 @@
+{
+    "store.home": {
+        "blocks": [
+            // "rich-text#home__container--text",
+            // "image#home__container--image",
+
+            // "link#home__link--ancla",
+            // "link#home__link--boton",
+            // "link#home__link--info",
+
+            // "slider-layout#home__slider--children",
+
+            "list-context.image-list#home__slider--list",
+
+            // "flex-layout.row",
+            // "flex-layout.row#home__section--two",
+            "responsive-layout.desktop",
+            "responsive-layout.mobile"
+            // "header-layout.desktop"
+
+            // "modal-trigger#home__modal--children",
+            // "modal-trigger#home__modal--event"
+        ]
+    }
+}

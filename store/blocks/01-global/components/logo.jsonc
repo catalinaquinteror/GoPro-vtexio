@@ -1,0 +1,10 @@
+{
+    "logo": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/img/gopro-logo.svg",
+            "width": "80"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    // "responsive-layout.phone#home__info--phone": {
+    //     "title": "Componente telefono",
+    //     "children": ["rich-text#home__info--phone"]
+    // },
+    "responsive-layout.mobile#home__info--mobile": {
+        "title": "Componente telefono",
+        "children": ["rich-text#home__info--mobile"]
+    },
+    // "responsive-layout.tablet#home__info--tablet": {
+    //     "title": "Componente tablet",
+    //     "children": ["rich-text#home__info--tablet"]
+    // },
+    // "rich-text#home__info--phone": {
+    //     "props": {
+    //     "text": "Resolución phone"
+    //     }
+    // },
+    "rich-text#home__info--mobile": {
+        "props": {
+        "text": "Resolución mobile"
+        }
+    }
+    // "rich-text#home__info--tablet": {
+    //     "props": {
+    //     "text": "Resolución tablet"
+    //     }
+    // }
+}

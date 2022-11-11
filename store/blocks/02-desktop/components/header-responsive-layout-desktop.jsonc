@@ -1,0 +1,11 @@
+{
+    // "responsive-layout.desktop#header__info--desktop": {
+    //     "title": "Componente desktop header",
+    //     "children": ["rich-text#header__info--desktop"]
+    // },
+    // "rich-text#header__info--desktop": {
+    //     "props": {
+    //     "text": "Resolución header desktop"
+    //     }
+    // }
+}
