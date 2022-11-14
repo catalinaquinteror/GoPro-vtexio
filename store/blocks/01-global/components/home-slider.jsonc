@@ -1,0 +1,54 @@
+{
+  "list-context.image-list#home__slider--list": {
+    "title": "List of images",
+    "children": [
+      "slider-layout#home__slider--list"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/main-slide-1.png",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/main-slide-2.png",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/main-slide-3.png",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/main-slide-4.png",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/main-slide-5.png",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/main-slide-6.png",
+          "description": "Slide 6"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--list": {
+    "title": "List of image slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "fullWidth": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  }
+}

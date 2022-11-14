@@ -1,0 +1,51 @@
+{
+    "header-layout.desktop": {
+        "title": "header desktop",
+        "children": [
+            "rich-text#envio",
+            // "header-row#header__top",
+            // "header-row#header__middle"
+            "sticky-layout#desktop"
+            // "flex-layout.row#desktop"
+        ]
+    },
+    "sticky-layout#desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#desktop"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "flex-layout.col#spacer",
+            "menu#header__menu-desktop",
+            // "search-bar",
+            // "locale-switcher", //Esto modifica el idioma en la version desktop
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo"
+        ]
+    }
+}
