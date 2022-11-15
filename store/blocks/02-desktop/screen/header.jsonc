@@ -7,6 +7,7 @@
             // "header-row#header__middle"
             "sticky-layout#desktop"
             // "flex-layout.row#desktop"
+
         ]
     },
     "sticky-layout#desktop": {
@@ -32,7 +33,8 @@
             // "search-bar",
             // "locale-switcher", //Esto modifica el idioma en la version desktop
             "login",
-            "minicart.v2"
+            "minicart.v2",
+            "overlay-trigger"
         ]
     },
     "flex-layout.col#spacer": {
