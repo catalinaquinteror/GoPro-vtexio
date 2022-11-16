@@ -12,8 +12,11 @@
 
             "list-context.image-list#home__slider--list",
 
-            // "flex-layout.row",
-            // "flex-layout.row#home__section--two",
+            // "flex-layout.row#home",
+            "flex-layout.row#home__section--one",
+            "flex-layout.row#home__section--two",
+            "flex-layout.row#home__section--three",
+
             "responsive-layout.desktop",
             "responsive-layout.mobile"
             // "header-layout.desktop"

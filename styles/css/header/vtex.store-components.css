@@ -1,0 +1,5 @@
+.logoContainer--logo {
+    display: flex;
+    justify-content:end;
+    margin-left: 20%;
+}

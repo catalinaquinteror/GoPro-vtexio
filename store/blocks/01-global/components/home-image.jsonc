@@ -1,0 +1,69 @@
+{
+    "image#home__image--section-one-item-1": {
+        "title": "Home image section one-a",
+        "props": {
+            "src": "assets/img/section-one-item-1.png",
+            "title": "GoPro accesories HERO10 & HERO9",
+            "blockClass":"home__image--section-one-item-1",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image--section-one-item-2": {
+        "title": "Home image section one-b",
+        "props": {
+            "src": "assets/img/section-one-item-2.png",
+            "title": "GoPro accesories HERO10 & HERO9",
+            "blockClass":"home__image--section-one-item-2",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image--section-one-item-3": {
+        "title": "Home image section one-c",
+        "props": {
+            "src": "assets/img/section-one-item-3.png",
+            "title": "GoPro accesories HERO10 & HERO9",
+            "blockClass":"home__image--section-one-item-3",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image--section-two": {
+        "title": "Home image section two",
+        "props": {
+            "src": "assets/img/section-two.png",
+            "title": "GoPro accesories HERO10 & HERO9",
+            "blockClass":"home__image--section-two",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    },
+    "image#home__image--section-three": {
+        "title": "Home image section three",
+        "props": {
+            "src": "assets/img/section-three.png",
+            "title": "GoPro accesories HERO10 & HERO9",
+            "blockClass":"home__image--section-three",
+            "link": {
+                "url": "https://www.google.com",
+                "newTab": true,
+                "attributeNoFollow": true
+            }
+        }
+    }
+
+
+}

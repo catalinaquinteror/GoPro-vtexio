@@ -48,7 +48,8 @@
       "autoplay": {
         "timeout": 3000,
         "stopOnHover": true
-      }
+      },
+      "showPaginationDots":"never"
     }
   }
 }

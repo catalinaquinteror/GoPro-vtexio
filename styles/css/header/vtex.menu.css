@@ -1,0 +1,20 @@
+.menuContainerNav {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.styledLinkContent {
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+    font-size: small;
+}
+
+.styledLinkContainer {
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+    font-size: small;
+}
