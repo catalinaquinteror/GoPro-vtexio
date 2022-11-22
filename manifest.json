@@ -50,7 +50,11 @@
     "vtex.store-icons": "0.x",
     "vtex.store-image": "0.x",
     "vtex.modal-layout": "0.x",
-    "vtex.overlay-layout": "0.x"
+    "vtex.overlay-layout": "0.x",
+    "vtex.search": "1.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.product-list": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
