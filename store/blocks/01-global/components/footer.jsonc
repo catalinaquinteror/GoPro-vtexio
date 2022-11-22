@@ -1,0 +1,212 @@
+{
+    "flex-layout.row#footer__container": {
+        "children": [
+            "flex-layout.col#footer__container--col-one",
+            "flex-layout.col#footer__container--col-two",
+            "flex-layout.col#footer__container--col-three",
+            "flex-layout.col#footer__container--col-four"
+        ],
+        "props": {
+            "blockClass": "footer__container"
+        }
+    },
+    "flex-layout.col#footer__container--col-one": {
+        "children": [
+            "logo",
+            "rich-text#follow",
+            "social-networks"
+        ]
+    },
+    "flex-layout.col#footer__container--col-two": {
+        "children": [
+            "vtex.menu@2.x:menu#contact-us"
+        ]
+    },
+    "flex-layout.col#footer__container--col-three": {
+        "children": [
+            "menu#info-and-policies"
+        ]
+    },
+    "flex-layout.col#footer__container--col-four": {
+        "children": [
+            "rich-text#payment",
+            "accepted-payment-methods"
+        ]
+    },
+    "rich-text#follow": {
+        "props": {
+            "text": "SÍGUENOS EN:"
+        }
+    },
+    "social-networks": {
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/exito",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://instagram.com/exito",
+                    "name": "Instagram"
+                }
+            ]
+        }
+    },
+    "vtex.menu@2.x:menu#contact-us": {
+        "children": [
+            "rich-text#servicio",
+            "menu-item#phone",
+            "menu-item#service-whatsapp",
+            "menu-item#warranty-whatsapp",
+            "menu-item#mail"
+        ],
+        "props": {
+            "orientation": "vertical"
+          }
+    },
+    "menu#info-and-policies": {
+        "children": [
+            "rich-text#info-footer",
+            "menu-item#compare",
+              "menu-item#news",
+              "menu-item#privacy-policies",
+              "menu-item#warranty-policies",
+              "menu-item#coockies-policies"
+        ],
+        "props": {
+              "orientation": "vertical"
+            }
+    },
+    "rich-text#payment":{
+        "props": {
+            "text": "MÉTODOS DE PAGO"
+        }
+    },
+    "accepted-payment-methods": {
+        "props": {
+            "paymentMethods": [
+                "mastercard",
+                "visa",
+                "diners club"
+            ]
+        }
+    },
+    "rich-text#servicio":{
+        "props": {
+            "text": "SERVICIO AL CLIENTE"
+        }
+    },
+    "menu-item#phone": {
+        "props": {
+            "id": "menu-phone",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "+57 321 994 0253",
+                "text": "+57 321 994 0253"
+            }
+        }
+    },
+    "menu-item#service-whatsapp": {
+        "props": {
+            "id": "menu-service-whatsapp",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Servicio GoPro",
+                "text": "Servicio GoPro"
+            }
+        }
+    },
+    "menu-item#warranty-whatsapp": {
+        "props": {
+            "id": "menu-warranty-whatsapp",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Servicio garantias",
+                "text": "Servicio garantias"
+            }
+        }
+    },
+    "menu-item#mail": {
+        "props": {
+            "id": "menu-mail",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "mail",
+                "text": "hola@goprocol.co"
+            }
+        }
+    },
+    "rich-text#info-footer":{
+        "props": {
+            "text": "INFORMACIÓN"
+        }
+    },
+    "menu-item#compare": {
+        "props": {
+            "id": "menu-compare",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Compara las cámaras",
+                "text": "Compara las cámaras"
+            }
+        }
+    },
+    "menu-item#news": {
+        "props": {
+            "id": "menu-news",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Noticias",
+                "text": "Noticias"
+            }
+        }
+    },
+    "menu-item#privacy-policies": {
+        "props": {
+            "id": "menu-privacy-policies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Política de privacidad",
+                "text": "Política de privacidad"
+            }
+        }
+    },
+    "menu-item#warranty-policies": {
+        "props": {
+            "id": "menu-warranty-policies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Política de garantias y devolución",
+                "text": "Política de garantias y devolución"
+            }
+        }
+    },
+    "menu-item#coockies-policies": {
+        "props": {
+            "id": "menu-coockies-policies",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Política de cookies",
+                "text": "Política de cookies"
+            }
+        }
+    }
+}

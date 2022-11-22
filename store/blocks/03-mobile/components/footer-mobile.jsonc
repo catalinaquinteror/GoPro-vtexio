@@ -1,0 +1,11 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#footer__container"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "footer__container--mobile"
+        }
+    }
+}
