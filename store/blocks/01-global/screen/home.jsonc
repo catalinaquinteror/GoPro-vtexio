@@ -18,12 +18,13 @@
             "flex-layout.row#home__section--three",
 
             "responsive-layout.desktop",
-            "responsive-layout.mobile"
+            "responsive-layout.mobile",
             // "header-layout.desktop"
 
             // "modal-trigger#home__modal--children",
             // "modal-trigger#home__modal--event"
             // "search-result-layout.customQuery#home__search"
+            "search-result-layout.customQuery#home__search"
         ]
     }
 }

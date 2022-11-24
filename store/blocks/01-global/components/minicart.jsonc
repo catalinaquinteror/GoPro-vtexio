@@ -1,0 +1,98 @@
+{
+    "minicart.v2#custom": {
+        "children": ["minicart-base-content"],
+        "props": {
+            "MinicartIcon": "icon-cart",
+            "variation": "popup",
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+        }
+    },
+    "minicart-base-content":{
+        "blocks":["minicart-empty-state"],
+        "children": ["minicart-product-list", "flex-layout.row#miniCart__footer"]
+    },
+    "minicart-empty-state":{
+        "children": [
+            // "rich-text#test"
+            "flex-layout.row#minicart__empty"
+        ]
+    },
+    "flex-layout.row#minicart__empty":{
+        "children": [
+            "flex-layout.col#minicart__empty"
+        ]
+    },
+    "flex-layout.col#minicart__empty":{
+        "children": [
+            "icon-cart#minicart__empty--icon",
+            "rich-text#minicart__empty--text"
+        ]
+    },
+    "icon-cart#minicart__empty--icon":{
+        "props":{
+            "size":100
+        }
+    },
+    "minicart-product-list": {
+        "blocks": ["product-list#minicart"]
+    },
+    "product-list#minicart": {
+        "blocks": [
+            "product-list-content-mobile"
+        ]
+    },
+    "product-list-content-mobile": {
+        "children": [
+            "flex-layout.row#minicart__row--mobile"
+        ]
+    },
+    "flex-layout.row#minicart__row--mobile": {
+        "children": [
+            "flex-layout.col#minicart__col--image",
+            "flex-layout.col#minicart__col--info",
+            "flex-layout.col#minicart_col--remove"
+        ]
+    },
+    "flex-layout.col#minicart__col--image":{
+        "children": [
+            "product-list-image"
+        ]
+    },
+    "flex-layout.col#minicart__col--info":{
+        "children": [
+            "vtex.product-list:product-name",
+            "quantity-selector#minicart",
+            "price"
+        ]
+    },
+    "flex-layout.col#minicart_col--remove":{
+        "children": [
+            "remove-button"
+        ]
+    },
+    "quantity-selector#minicart": {
+        "props": {
+            "mode": "stepper"
+        }
+    },
+    "rich-text#minicart__empty--text":{
+        "props": {
+            "text": "Carrito actualmente vacio",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#miniCart__footer":{
+        "children": [
+            "flex-layout.col#miniCart__footer"
+        ]
+    },
+    "flex-layout.col#miniCart__footer":{
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button",
+            "drawer-close-button"
+        ]
+    }
+}
