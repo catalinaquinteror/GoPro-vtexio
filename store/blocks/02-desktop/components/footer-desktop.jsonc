@@ -1,0 +1,10 @@
+{
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer__container"
+        ],
+        "props": {
+            "blockClass": "footer__container--desktop"
+        }
+    }
+}

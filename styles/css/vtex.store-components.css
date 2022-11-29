@@ -1,0 +1,26 @@
+.logoContainer--logo {
+    display: flex;
+    justify-content:end;
+    margin-left: 20%;
+}
+
+.imageElementLink--home__image--section-one {
+    display: flex;
+    justify-content: center;
+}
+
+.imageElementLink--home__image--section-two {
+    display: flex;
+    justify-content: center;
+}
+
+.flexCol--home__section--one-b {
+    display: flex;
+    justify-content: center;
+}
+
+.imageElement--home__image--section-one-item-3 {
+    display: flex;
+    justify-content: center;
+}
+

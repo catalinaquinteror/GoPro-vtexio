@@ -1,0 +1,21 @@
+.flexColChild--home__section--one-a {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.flexColChild--home__section--one-b {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.home__image--section-two {
+    width:auto
+}
+
+.flexRowContent--main-header-mobile {
+    background-color: #333333;
+}
+
+.flexRowContent--main-header-desktop {
+    background-color: #333333;
+}
