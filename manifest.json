@@ -54,7 +54,13 @@
     "vtex.search": "1.x",
     "vtex.checkout-summary": "0.x",
     "vtex.disclosure-layout": "1.x",
-    "vtex.product-list": "0.x"
+    "vtex.product-list": "0.x",
+    "vtex.product-price": "1.x"
+  },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x",
+    "vtex.questions-and-answers": "0.x",
+    "vtex.reviews-and-ratings": "3.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
