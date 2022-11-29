@@ -12,10 +12,10 @@
             }
         },
         "blocks": [
-            "submenu.accordion#department__camaras"
+            "submenu#department__camaras"
         ]
     },
-    "submenu.accordion#department__camaras": {
+    "submenu#department__camaras": {
         "children": [
             "menu#department__camaras"
         ]
@@ -45,10 +45,10 @@
             }
         },
         "blocks": [
-            "submenu.accordion#department__accesorios"
+            "submenu#department__accesorios"
         ]
     },
-    "submenu.accordion#department__accesorios": {
+    "submenu#department__accesorios": {
         "children": [
             "menu#department__accesorios"
         ]
