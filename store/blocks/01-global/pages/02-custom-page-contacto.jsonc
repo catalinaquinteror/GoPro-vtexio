@@ -33,7 +33,7 @@
     },
     "image#contacto": {
       "props": {
-        "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+        // "src": "",
         "maxHeight": "600px"
       }
     }

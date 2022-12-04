@@ -1,0 +1,7 @@
+{
+    "search-result-layout.desktop#department": {
+        "children": [
+            "flex-layout.row#department__breadcrumb"
+        ]
+    }
+}

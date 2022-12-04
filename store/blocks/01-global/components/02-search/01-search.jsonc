@@ -1,0 +1,112 @@
+{
+    "search-result-layout": {
+        "title": "Search Result General",
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "search-not-found-layout": {
+        "title": "Search Not Found Result",
+        "props": {
+            "blockClass": "search-not-found-layout"
+        },
+        "children": [
+            "rich-text#search__not-found--text",
+            "image#nofound"
+        ]
+    },
+    "flex-layout.row#home__results": {
+        "title": "Search Result Container",
+        "children": [
+            "flex-layout.col#home__results--filter",
+            "flex-layout.col#home__results--search"
+        ],
+        "props": {
+            "blockClass": "search__results"
+        }
+    },
+    "rich-text#search__not-found--text": {
+        "title": "Search Not Found Message",
+        "props": {
+            "text": "Sin coincidencias.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "search__not-found--text"
+        }
+    },
+    "image#nofound": {
+        "props": {
+            "text": "error 404",
+            // "src": "",
+            "blockClass": "image-nofound"
+        }
+    },
+    "flex-layout.col#home__results--filter": {
+        "props": {
+            "width": "30%"
+        },
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
+    "flex-layout.col#home__results--search": {
+        "children": [
+            "search-content#home__results--search"
+        ],
+        "props": {
+            "width": "70%"
+        }
+    },
+    "search-content#home__results--search": {
+        "blocks": [
+            "gallery",
+            "not-found"
+        ]
+    },
+    "gallery": {
+        "blocks": [
+            "product-summary.shelf"
+        ]
+    },
+    "modal-trigger#global__quick-view": {
+        "children": [
+            "rich-text#global__quick-view--trigger",
+            "modal-layout#global__quick-view--modal"
+        ]
+    },
+    "rich-text#global__quick-view--trigger": {
+        "props": {
+            "text": "Vista Rapida",
+            "blockClass": "quick-view__triger"
+        }
+    },
+    "modal-layout#global__quick-view--modal": {
+        "children": [
+            "flex-layout.row#quick-view__modal"
+        ]
+    },
+    "flex-layout.row#quick-view__modal": {
+        "children": [
+            "flex-layout.col#quick-view__modal--image",
+            "flex-layout.col#quick-view__modal--info"
+        ]
+    },
+    "flex-layout.col#quick-view__modal--image": {
+        "children": [
+            "product-images"
+        ]
+    },
+    "flex-layout.col#quick-view__modal--info": {
+        "children": [
+            "add-to-list-btn",
+            "vtex.store-components:product-name",
+            "vtex.store-components:product-brand",
+            "product-price",
+            "share",
+            "product-quantity",
+            "add-to-cart-button"
+        ]
+    }
+}

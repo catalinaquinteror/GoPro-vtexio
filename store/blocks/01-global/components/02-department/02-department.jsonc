@@ -1,0 +1,74 @@
+{
+    // "store.search#department": {
+    //     "blocks": [
+    //         "search-result-layout"
+    //     ],
+    //     "props": {
+    //         "context": {
+    //             "skusFilter": "ALL_AVAILABLE",
+    //             "simulationBehavior": "default"
+    //         }
+    //     }
+    // },
+    "store.search#department": {
+        "blocks": [
+            "search-result-layout#department"
+        ]
+    },
+    "search-result-layout#department": {
+        "blocks": [
+            "search-result-layout.desktop#department",
+            "search-result-layout.mobile#department",
+            "search-not-found-layout"
+        ]
+    },
+    "flex-layout.row#department__breadcrumb": {
+        "children": [
+            "flex-layout.col#department__breadcrumb"
+        ]
+    },
+    "flex-layout.col#department__breadcrumb": {
+        "children": [
+            "breadcrumb.search",
+            "flex-layout.col#category__results--filter",
+            "flex-layout.col#category__results--content"
+        ]
+    },
+    
+    "flex-layout.row#department__results": {
+        "title": "Department Results",
+        "children": [
+            "gallery-layout-switcher"
+            // "search-content#mobile"
+        ]
+    },
+    "gallery-layout-switcher": {
+        "children": [
+            "gallery-layout-option#grid__two-columns",
+            "gallery-layout-option#grid__one-column"
+        ]
+    },
+    "gallery-layout-option#grid__two-columns": {
+        "props": {
+            "name": "grid-two-columns",
+            "blockClass": "grid__selector--two-columns"
+        }
+    },
+    "gallery-layout-option#grid__one-column": {
+        "props": {
+            "name": "grid-one-column",
+            "blockClass": "grid__selector--one-column"
+        }
+    },
+    // "search-content#mobile":{
+    //     "blocks":[
+    //         "vtex.search-result@3.x:gallery"
+    //         // "vtex.search-result@3.x:search-content"
+    //     ]
+    // },
+    "search-not-found-layout": {
+        "children": [
+            "rich-text#search__not-found--text"
+        ]
+    }
+}
