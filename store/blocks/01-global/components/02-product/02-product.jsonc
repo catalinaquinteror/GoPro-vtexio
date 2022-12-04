@@ -1,19 +1,19 @@
 {
     "store.product": {
         "children": [
-            // "sku-selector"
-            // "flex-layout.row#quick-view__modal"
-            // "rich-text#product"
             "flex-layout.row#product__breadcrumb",
+            "sku-selector",
+            // "flex-layout.row#quick-view__modal",
+            "rich-text#product",
             "flex-layout.row#product__info",
             "flex-layout.row#product__tabs"
         ]
     },
-    // "rich-text#product": {
-    //     "props": {
-    //         "text": "Esta es una página de producto"
-    //     }
-    // }
+    "rich-text#product": {
+        "props": {
+            "text": "Esta es una página de producto"
+        }
+    },
     "flex-layout.row#product__tabs": {
         "title": "Información adicional",
         "children": [

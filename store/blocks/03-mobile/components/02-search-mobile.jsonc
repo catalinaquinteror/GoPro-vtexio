@@ -1,0 +1,14 @@
+{
+    "search-result-layout.mobile": {
+        "title": "Search result mobile",
+        "children": [
+            // "flex-layout.row#home__results"
+            "rich-text#mobile-response"
+        ]
+    },
+    "rich-text#mobile-response":{
+        "props": {
+            "text": "moblie search"
+        }
+    }
+}
