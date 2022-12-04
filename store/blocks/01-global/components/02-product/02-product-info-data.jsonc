@@ -22,7 +22,7 @@
         "title": "Data de producto",
         "children": [
             "share",
-            "vtex.product-list:product-name",
+            "vtex.store-components:product-name",
             "vtex.store-components:product-brand",
             "product-rating-inline",
             "product-price",

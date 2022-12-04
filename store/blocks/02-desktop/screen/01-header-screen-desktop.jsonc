@@ -23,7 +23,7 @@
             "flex-layout.col#logo-desktop",
             "flex-layout.col#spacer",
             "menu#header__menu-desktop",
-            // "search-bar",
+            "search-bar",
             // "locale-switcher", //Esto modifica el idioma en la version desktop
             "login",
             "minicart.v2",
