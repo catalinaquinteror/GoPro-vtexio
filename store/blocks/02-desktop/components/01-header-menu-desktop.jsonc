@@ -1,6 +1,6 @@
 {
-    
     "menu#header__menu-desktop": {
+        "title": "Departamentos desktop",
         "children": [
             "menu-item#department__camaras",
             "menu-item#department__accesorios",

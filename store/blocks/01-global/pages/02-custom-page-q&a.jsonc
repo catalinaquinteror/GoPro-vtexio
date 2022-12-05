@@ -1,0 +1,41 @@
+{
+    "store.custom#q&a": {
+      "blocks": [
+        "flex-layout.row#q&a"
+      ]
+    },
+    "flex-layout.row#q&a": {
+      "children": [
+        "image#q&a",
+        "flex-layout.col#text-q&a"
+      ]
+    },
+    "flex-layout.col#text-q&a": {
+      "children": [
+        "rich-text#about-title",
+        "rich-text#about-content"
+      ],
+          "props": {
+        "preventVerticalStretch": true
+      }
+    },
+   "rich-text#about-title": {
+      "props": {
+        "text":
+        "# About us Title"
+      }
+    },
+    "rich-text#about-content": {
+      "props": {
+        "text":
+        " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
+      }
+    },
+    "image#q&a": {
+      "props": {
+        "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+        "maxHeight": "600px"
+      }
+    }
+   }
+   

@@ -1,0 +1,93 @@
+{
+    "menu-item#category__hero11-black": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/hierro/p",
+                "noFollow": false,
+                "tagTitle": "HERO11 BLACK",
+                "text": "HERO11 BLACK"
+            }
+        }
+    },
+    "menu-item#category__hero11-black-creator edition": {
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/ladrillos",
+                "noFollow": false,
+                "tagTitle": "HERO11 BLACK - Creator Edition",
+                "text": "HERO11 BLACK - Creator Edition"
+            }
+        }
+    },
+    "menu-item#category__hero10-black": {
+        "props": {
+            "id": "category-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/varillas",
+                "noFollow": false,
+                "tagTitle": "HERO10 BLACK",
+                "text": "HERO10 BLACK"
+            }
+        }
+    },
+    "menu-item#category__hero9-black": {
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/hierro/p",
+                "noFollow": false,
+                "tagTitle": "HERO9 BLACK",
+                "text": "HERO9 BLACK"
+            }
+        }
+    },
+    "menu-item#category__max": {
+        "props": {
+            "id": "category-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos/ladrillos",
+                "noFollow": false,
+                "tagTitle": "MAX",
+                "text": "MAX"
+            }
+        }
+    },
+    "menu-item#category__todos-los-accesorios": {
+        "props": {
+            "id": "category-todos-los-accesorios",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/queso/cemento",
+                "noFollow": false,
+                "tagTitle": "Todos los accesorios",
+                "text": "Todos los accesorios"
+            }
+        }
+    },
+    "menu-item#category__accesorios-hero10-hero9": {
+        "props": {
+            "id": "category-accesorios-hero10-hero9",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/queso/quesos-importados",
+                "noFollow": false,
+                "tagTitle": "Accesorios HERO10 y HERO9",
+                "text": "Accesorios HERO10 y HERO9"
+            }
+        }
+    }
+}

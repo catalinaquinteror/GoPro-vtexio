@@ -1,0 +1,15 @@
+{
+    "search-result-layout.desktop": {
+        "title": "Search result desktop",
+        "children": [
+            "breadcrumb.search",
+            "flex-layout.row#home__results",
+            "rich-text#desktop-response"
+        ]
+    },
+    "rich-text#desktop-response":{
+        "props": {
+            "text": "desktop search"
+        }
+    }
+}

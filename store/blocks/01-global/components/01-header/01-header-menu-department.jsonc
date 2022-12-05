@@ -1,0 +1,117 @@
+{
+    "menu-item#department__camaras": {
+        "props": {
+            "id": "department-camaras",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/electrodomesticos",
+                "noFollow": false,
+                "tagTitle": "CÁMARAS",
+                "text": "CÁMARAS"
+            }
+        },
+        "blocks": [
+            "submenu#department__camaras"
+        ]
+    },
+    "submenu#department__camaras": {
+        "children": [
+            "menu#department__camaras"
+        ]
+    },
+    "menu#department__camaras": {
+        "children": [
+            "menu-item#category__hero11-black",
+            "menu-item#category__hero11-black-creator edition",
+            "menu-item#category__hero10-black",
+            "menu-item#category__hero9-black",
+            "menu-item#category__max"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__accesorios": {
+        "props": {
+            "id": "department-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/queso",
+                "noFollow": false,
+                "tagTitle": "ACCESORIOS",
+                "text": "ACCESORIOS"
+            }
+        },
+        "blocks": [
+            "submenu#department__accesorios"
+        ]
+    },
+    "submenu#department__accesorios": {
+        "children": [
+            "menu#department__accesorios"
+        ]
+    },
+    "menu#department__accesorios": {
+        "children": [
+            "menu-item#category__todos-los-accesorios",
+            "menu-item#category__accesorios-hero10-hero9"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__aplicaciones": {
+        "props": {
+            "id": "department-aplicaciones",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/aplicaciones",
+                "noFollow": false,
+                "tagTitle": "APLICACIONES",
+                "text": "APLICACIONES"
+            }
+        }
+    },
+    "menu-item#department__noticias": {
+        "props": {
+            "id": "department-noticias",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/noticias",
+                "noFollow": false,
+                "tagTitle": "NOTICIAS",
+                "text": "NOTICIAS"
+            }
+        }
+    },
+    "menu-item#department__contacto": {
+        "props": {
+            "id": "department-contacto",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/contacto",
+                "noFollow": false,
+                "tagTitle": "CONTACTO",
+                "text": "CONTACTO"
+            }
+        }
+    },
+    "menu-item#department__q&a": {
+        "props": {
+            "id": "department-q&a",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/q&a",
+                "noFollow": false,
+                "tagTitle": "Q&A",
+                "text": "Q&A"
+            }
+        }
+    }
+}
