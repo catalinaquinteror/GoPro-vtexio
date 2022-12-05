@@ -1,6 +1,7 @@
 {
     "store.home": {
         "blocks": [
+            "whatsapp-button",
             // "rich-text#home__container--text",
             // "image#home__container--image",
 

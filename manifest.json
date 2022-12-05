@@ -55,7 +55,8 @@
     "vtex.checkout-summary": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.product-list": "0.x",
-    "vtex.product-price": "1.x"
+    "vtex.product-price": "1.x",
+    "itgloberspartnercl.whatsapp-button": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
