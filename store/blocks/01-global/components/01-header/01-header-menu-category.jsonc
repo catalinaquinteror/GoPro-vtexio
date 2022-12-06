@@ -1,76 +1,98 @@
 {
     "menu-item#category__hero11-black": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-one",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/electrodomesticos/hierro/p",
+                "href": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
                 "noFollow": false,
                 "tagTitle": "HERO11 BLACK",
                 "text": "HERO11 BLACK"
+                // "orientation": "horizontal"
             }
-        }
+        },
+        "children": [
+            "image#hero11"
+        ]
     },
     "menu-item#category__hero11-black-creator edition": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-two",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/electrodomesticos/ladrillos",
+                "href": "varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p",
                 "noFollow": false,
                 "tagTitle": "HERO11 BLACK - Creator Edition",
                 "text": "HERO11 BLACK - Creator Edition"
             }
-        }
+        },
+        "children": [
+            "image#hero11-creator"
+        ]
     },
     "menu-item#category__hero10-black": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-one",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/electrodomesticos/varillas",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
                 "noFollow": false,
                 "tagTitle": "HERO10 BLACK",
                 "text": "HERO10 BLACK"
             }
-        }
+        },
+        "children": [
+            "image#hero10"
+        ]
     },
     "menu-item#category__hero9-black": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-two",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/electrodomesticos/hierro/p",
+                "href": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
                 "noFollow": false,
                 "tagTitle": "HERO9 BLACK",
                 "text": "HERO9 BLACK"
             }
-        }
+        },
+        "children": [
+            "image#hero9"
+        ]
     },
     "menu-item#category__max": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-two",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/electrodomesticos/ladrillos",
+                "href": "/barra-entorchada-6m-x-12mm-cuadrada/p",
                 "noFollow": false,
                 "tagTitle": "MAX",
                 "text": "MAX"
             }
-        }
+        },
+        "children": [
+            "image#hero-max"
+        ]
     },
     "menu-item#category__todos-los-accesorios": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-todos-los-accesorios",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/queso/cemento",
+                "href": "/madera",
                 "noFollow": false,
                 "tagTitle": "Todos los accesorios",
                 "text": "Todos los accesorios"
@@ -79,15 +101,51 @@
     },
     "menu-item#category__accesorios-hero10-hero9": {
         "props": {
+            "blockClass": "items-menu",
             "id": "category-accesorios-hero10-hero9",
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/queso/quesos-importados",
+                "href": "/mujer",
                 "noFollow": false,
                 "tagTitle": "Accesorios HERO10 y HERO9",
                 "text": "Accesorios HERO10 y HERO9"
             }
+        }
+    },
+    "image#hero11": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2020/09/dropdown-menu-h11b-new-2x-300x194.png",
+            "blockClass": "image-menu",
+            "width": "80%"
+        }
+    },
+    "image#hero11-creator": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2020/09/h11b-creator-edition-menu.png",
+            "blockClass": "image-menu",
+            "width": "50%"
+        }
+    },
+    "image#hero10": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2020/09/header-camera-menu-h10b-1920-2x-300x194.png",
+            "blockClass": "image-menu",
+            "width": "80%"
+        }
+    },
+    "image#hero9": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2020/09/header-camera-menu-h9b-1920-2x-300x194.png",
+            "blockClass": "image-menu",
+            "width": "80%"
+        }
+    },
+    "image#hero-max": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2020/09/header-camera-menu-max-1920-2x-300x194.png",
+            "blockClass": "image-menu",
+            "width": "300px"
         }
     }
 }

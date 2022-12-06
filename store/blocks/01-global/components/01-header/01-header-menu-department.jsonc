@@ -1,6 +1,7 @@
 {
     "menu-item#department__camaras": {
         "props": {
+            "blockClass": "submenu-department",
             "id": "department-camaras",
             "type": "custom",
             "itemProps": {
@@ -29,11 +30,13 @@
             "menu-item#category__max"
         ],
         "props": {
-            "orientation": "vertical"
+            // "orientation": "horizontal"
+            "blockClass": "submenu-department"
         }
     },
     "menu-item#department__accesorios": {
         "props": {
+            "blockClass": "submenu-department",
             "id": "department-one",
             "type": "custom",
             "itemProps": {
@@ -59,11 +62,13 @@
             "menu-item#category__accesorios-hero10-hero9"
         ],
         "props": {
-            "orientation": "vertical"
+            "blockClass":"submenu-department"
+            // "orientation": "vertical"
         }
     },
     "menu-item#department__aplicaciones": {
         "props": {
+            "blockClass": "submenu-department",
             "id": "department-aplicaciones",
             "type": "custom",
             "itemProps": {
@@ -77,6 +82,7 @@
     },
     "menu-item#department__noticias": {
         "props": {
+            "blockClass": "submenu-department",
             "id": "department-noticias",
             "type": "custom",
             "itemProps": {
@@ -90,6 +96,7 @@
     },
     "menu-item#department__contacto": {
         "props": {
+            "blockClass": "submenu-department",
             "id": "department-contacto",
             "type": "custom",
             "itemProps": {
@@ -103,6 +110,7 @@
     },
     "menu-item#department__q&a": {
         "props": {
+            "blockClass": "submenu-department",
             "id": "department-q&a",
             "type": "custom",
             "itemProps": {
