@@ -10,10 +10,12 @@
         {
           "image": "assets/img/main-slide-1.png",
           "description": "Slide 1"
+          // "link": {"https://google.com"}
         },
         {
           "image": "assets/img/main-slide-2.png",
           "description": "Slide 2"
+          // "href": "https://google.com"
         },
         {
           "image": "assets/img/main-slide-3.png",
@@ -37,6 +39,11 @@
   "slider-layout#home__slider--list": {
     "title": "List of image slider",
     "props": {
+    //   "link": {
+    //     "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+    //     "newTab": true,
+    //     "attributeNoFollow": false
+    // },
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

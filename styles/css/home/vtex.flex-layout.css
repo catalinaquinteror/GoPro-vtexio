@@ -19,3 +19,8 @@
 .flexRowContent--main-header-desktop {
     background-color: #333333;
 }
+
+.flexRow--footer__container {
+    background-color: black;
+    color: white;
+}

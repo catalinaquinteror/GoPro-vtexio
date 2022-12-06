@@ -30,7 +30,17 @@
     "flex-layout.col#department__breadcrumb": {
         "children": [
             "breadcrumb.search",
-            "flex-layout.col#category__results--filter",
+            "flex-layout.row#category__results--filter",
+            "flex-layout.row#category__results--content"
+        ]
+    },
+    "flex-layout.row#category__results--filter": {
+        "children": [
+            "flex-layout.col#category__results--filter"
+        ]
+    },
+    "flex-layout.row#category__results--content": {
+        "children": [
             "flex-layout.col#category__results--content"
         ]
     },
