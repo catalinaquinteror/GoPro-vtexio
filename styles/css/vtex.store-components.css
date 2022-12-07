@@ -24,3 +24,8 @@
     justify-content: center;
 }
 
+.imageElement--image-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

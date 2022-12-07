@@ -4,7 +4,7 @@
     align-items:center;
 }
 
-.styledLinkContent {
+.styledLinkContent--submenu-department {
     color: aliceblue;
     display: flex;
     justify-content: flex-start;
@@ -12,9 +12,32 @@
     font-size: small;
 }
 
-.styledLinkContainer {
+.styledLinkContent--items-menu {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    font-size: small;
+}
+
+
+/* .menuItem--items-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: brown;
+} */
+
+
+/* .menuContainerNav--menu-desktop {
+    /* font-style: aliceblue; */
+    /* color: aliceblue;
     display: flex;
     justify-content:flex-start;
     align-items:flex-end;
     font-size: small;
-}
+} */
+
+/* .submenu-accesorios {
+    color: blue;
+} */
