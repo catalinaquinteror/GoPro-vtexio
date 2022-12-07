@@ -5,23 +5,50 @@
 }
 
 .imageElementLink--home__image--section-one {
+    width: 90%;
     display: flex;
     justify-content: center;
-}
-
-.imageElementLink--home__image--section-two {
-    display: flex;
-    justify-content: center;
+    /* margin: 5%; */
 }
 
 .flexCol--home__section--one-b {
+    width: 90%;
     display: flex;
     justify-content: center;
+    /* align-items: stretch; */
+}
+.imageElement--home__image--section-one-item-1 {
+    /* margin: 5%; */
+    display: flex;
+    justify-content: center;
+    /* align-content: space-between; */
+    opacity: 1;
+}
+.imageElement--home__image--section-one-item-1:hover {
+    opacity: 0.8;
+}
+
+.imageElement--home__image--section-one-item-2 {
+    /* margin-top: 5%; */
+    /* margin-right: 5%; */
+    display: flex;
+    justify-content: center;
+    /* align-content: space-between; */
+    opacity: 1;
+}
+
+.imageElement--home__image--section-one-item-2:hover {
+    opacity: 0.8;
 }
 
 .imageElement--home__image--section-one-item-3 {
+    /* margin-top: 5%; */
     display: flex;
     justify-content: center;
+    opacity: 1;
+}
+.imageElement--home__image--section-one-item-3:hover {
+    opacity: 0.8;
 }
 
 .imageElement--image-menu {
@@ -29,3 +56,53 @@
     justify-content: center;
     align-items: flex-start;
 }
+
+.imageElement--home__image--section-three {
+    /* width: 200%; */
+    display: flex;
+    justify-content: center;
+}
+
+.imageElementLink--home__image--section-three {
+    /* width: 200%; */
+    display: flex;
+    justify-content: center;
+}
+
+.home__section--three {
+    /* width: 200%; */
+    display: flex;
+    justify-content: center;
+}
+
+.imageElement--home__image--section-two {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
+
+.imageElement--home__image--section-two:hover {
+    opacity: 0.8;
+}
+
+.imageElementLink--home__image--section-two {
+    /* width: 90%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+.home__section--two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .imageElement--call-to-action__text {
+    display: flex;
+    justify-content: flex-start;
+    z-index: 2;
+} */

@@ -1,11 +1,28 @@
 {
+    "flex-layout.row#home__section--call-to-action": {
+        "title": "section call to action",
+        "props": {
+            "blockClass": "home__section--call-to-action",
+            "fullWidth": true
+        },
+        "children": [
+            // "media#call-to-action"
+            // "rich-text#call-to-action__title",
+            // "rich-text#call-to-action__subtitle",
+            // "rich-text#call-to-action__text",
+            // "flex-layout.col#section__call-to-action",
+            "add-to-cart-button",
+            "video#call-to-action"
+        ]
+    },
     "flex-layout.row#home__section--one": {
         "children": [
             "flex-layout.col#section__one-a",
             "flex-layout.col#section__one-b"
         ],
         "props": {
-            "blockClass": "home__section--one"
+            "blockClass": "home__section--one",
+            "fullWidth": true
         }
     },
     "flex-layout.col#section__one-a": {
@@ -13,19 +30,21 @@
             "image#home__image--section-one-item-1"
         ],
         "props": {
-            "blockClass": "home__section--one-a"
+            "blockClass": "home__section--one-a",
+            "fullWidth": true
         }
     },
-    "flex-layout.col#section__one-b":{
+    "flex-layout.col#section__one-b": {
         "children": [
             "image#home__image--section-one-item-2",
             "image#home__image--section-one-item-3"
         ],
         "props": {
-            "blockClass": "home__section--one-b"
+            "blockClass": "home__section--one-b",
+            "fullWidth": true
         }
     },
-    "flex-layout.row#home__section--two":{
+    "flex-layout.row#home__section--two": {
         "children": [
             "image#home__image--section-two"
         ],
@@ -34,14 +53,75 @@
             "fullWidth": true
         }
     },
-    "flex-layout.row#home__section--three":{
+    "flex-layout.row#home__section--three": {
         "children": [
             "image#home__image--section-three"
         ],
         "props": {
-            "blockClass": "home__section--three"
+            "blockClass": "home__section--three",
+            "fullWidth": true
+        }
+    },
+    // "media#call-to-action":{
+    //     "title": "call to action media",
+    //     "props": {
+    //         "src": "https://goprocol.co/wp-content/uploads/2022/09/Site-HP-H11-Hero-1920.mp4",
+    //         "blockClass": "storePrint"
+    //       }
+    // }
+    "video#call-to-action": {
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/video-call-to-action.mp4",
+            "blockClass": "video-home",
+            "fullWidth": true
         }
     }
+    // "rich-text#call-to-action__title": {
+    //     "title": "Text call to action section",
+    //     "props": {
+    //         "text": "HERO 11",
+    //         "blockClass": [
+    //             "call-to-action__title"
+    //         ]
+    //     }
+    // },
+    // "flex-layout.col#section__call-to-action":{
+    //     "children": [
+    //         "image#call-to-action"
+    //     ]
+    // },
+    // "image#call-to-action":{
+    //     "title": "Call to action text",
+    //     "props": {
+    //         "src": "assets/img/call-to-action.png",
+    //         "blockClass": "call-to-action-image"
+    //     }
+    // }
+    // "rich-text#call-to-action__subtitle": {
+    //     "title": "Text call to action section",
+    //     "props": {
+    //         "text": "## La cámara mas versátil del <br> mundo, ahora al 11",
+    //         "blockClass": [
+    //             "call-to-action__subtitle"
+    //         ]
+    //     }
+    // },
+    // "rich-text#call-to-action__text": {
+    //     "title": "Text call to action section",
+    //     "props": {
+    //         "text": "### NUEVA HERO11 BLACK",
+    //         "blockClass": [
+    //             "call-to-action__text"
+    //         ]
+    //     }
+    // }
+
+
     // "flex-layout.row#home":
     // {
     //     "children": [
@@ -133,13 +213,13 @@
     //         "blockClasss": "section__one--image"
     //     }
     // },
-//     "flex-layout.row#section__three--image": {
-//         "title": "Imagen de sección tres",
-//         "children": [
-//             "image#home__image--section-three"
-//         ],
-//         "props": {
-//             "blockClasss": "section__one--image"
-//         }
-//     }
+    //     "flex-layout.row#section__three--image": {
+    //         "title": "Imagen de sección tres",
+    //         "children": [
+    //             "image#home__image--section-three"
+    //         ],
+    //         "props": {
+    //             "blockClasss": "section__one--image"
+    //         }
+    //     }
 }
