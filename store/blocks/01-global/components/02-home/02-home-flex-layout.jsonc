@@ -11,8 +11,9 @@
             // "rich-text#call-to-action__subtitle",
             // "rich-text#call-to-action__text",
             // "flex-layout.col#section__call-to-action",
-            "add-to-cart-button",
-            "video#call-to-action"
+            // "add-to-cart-button",
+            "video#call-to-action",
+            "link.product#product-page"
         ]
     },
     "flex-layout.row#home__section--one": {
@@ -69,6 +70,7 @@
     //         "blockClass": "storePrint"
     //       }
     // }
+
     "video#call-to-action": {
         "props": {
             "width": "100%",
@@ -80,7 +82,20 @@
             "blockClass": "video-home",
             "fullWidth": true
         }
-    }
+    },
+    "link.product#product-page": {
+        "title": "Call to action",
+        "props": {
+          "href": "https://gopro--itgloberspartnercl.myvtex.com/ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+          "label": "COMPRAR AHORA",
+          "displayMode":"button",
+          "buttonProps": {
+            "size":"regular",
+            "variant": "primary"
+          },
+          "blockClass": "call-to-action__button"
+        }
+      }
     // "rich-text#call-to-action__title": {
     //     "title": "Text call to action section",
     //     "props": {
