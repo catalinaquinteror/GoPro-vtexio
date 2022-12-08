@@ -39,6 +39,17 @@ margin-top: 20%;
     position: absolute;
     z-index: 1;
 }
+
+.flexRowContent--home__section--call-to-action :global(.vtex-store-link-0-x-link){
+    z-index: 2;
+}
+
+/* @media (max-width: 600px) {
+    .flexRowContent--home__section--call-to-action :global(.vtex-store-video-1-x-videoElement) {
+        height: 300px !important;
+        width: 300px !important;
+    }
+} */
 /* .flexRowContent--home__section--call-to-action :global(.vtex-store-components-3-x-imageElement--call-to-action-image){
     z-index: 2;
 } */
