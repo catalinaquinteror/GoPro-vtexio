@@ -14,6 +14,8 @@
             "list-context.image-list#home__slider--list",
 
             // "flex-layout.row#home",
+            // "add-to-cart-button",
+            "flex-layout.row#home__section--call-to-action",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--two",
             "flex-layout.row#home__section--three",

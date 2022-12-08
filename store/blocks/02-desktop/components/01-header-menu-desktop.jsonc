@@ -11,6 +11,7 @@
         ],
         "props": {
             // "orientation": "vertical"
+            "blockClass": "menu-desktop"
         }
     }
 }

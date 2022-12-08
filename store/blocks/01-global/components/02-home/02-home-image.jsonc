@@ -9,7 +9,8 @@
                 "url": "https://www.google.com",
                 "newTab": true,
                 "attributeNoFollow": true
-            }
+            },
+            "fullWidth": true
         }
     },
     "image#home__image--section-one-item-2": {
@@ -22,8 +23,8 @@
                 "url": "https://www.google.com",
                 "newTab": true,
                 "attributeNoFollow": true
-            }
-            // "width": "120"
+            },
+            "fullWidth": true
         }
     },
     "image#home__image--section-one-item-3": {
@@ -36,7 +37,8 @@
                 "url": "https://www.google.com",
                 "newTab": true,
                 "attributeNoFollow": true
-            }
+            },
+            "fullWidth": true
         }
     },
     "image#home__image--section-two": {
@@ -63,6 +65,7 @@
                 "newTab": true,
                 "attributeNoFollow": true
             }
+            // "Width": "200%"
         }
     }
 
