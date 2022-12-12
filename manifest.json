@@ -56,6 +56,7 @@
     "vtex.disclosure-layout": "1.x",
     "vtex.product-list": "0.x",
     "vtex.product-price": "1.x",
+    "itgloberspartnercl.whatsapp-button": "0.x",
     "vtex.store-media": "0.x",
     "vtex.store-video": "1.x"
   },
