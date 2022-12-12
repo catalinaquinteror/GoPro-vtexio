@@ -35,15 +35,22 @@ margin-top: 20%;
     padding: 0%;
 } */
 
-.flexRowContent--home__section--call-to-action :global(.vtex-store-video-1-x-videoElement){
+/* .flexRowContent--home__section--call-to-action :global(.vtex-store-video-1-x-videoElement){
     position: absolute;
     z-index: 1;
 }
 
 .flexRowContent--home__section--call-to-action :global(.vtex-store-link-0-x-link){
     z-index: 2;
+} */
+.flexColChild--video-contacto {
+    display: flex;
+    justify-content: center;
 }
-
+.flexColChild--form-contacto {
+    display: flex;
+    justify-content: center;
+}
 /* @media (max-width: 600px) {
     .flexRowContent--home__section--call-to-action :global(.vtex-store-video-1-x-videoElement) {
         height: 300px !important;

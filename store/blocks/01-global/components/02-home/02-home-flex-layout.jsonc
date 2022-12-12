@@ -12,8 +12,8 @@
             // "rich-text#call-to-action__text",
             // "flex-layout.col#section__call-to-action",
             // "add-to-cart-button",
-            "video#call-to-action",
-            "link.product#product-page"
+            "video#call-to-action"
+            // "link.product#product-page"
         ]
     },
     "flex-layout.row#home__section--one": {

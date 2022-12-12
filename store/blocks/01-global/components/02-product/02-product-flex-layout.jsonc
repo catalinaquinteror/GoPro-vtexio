@@ -1,0 +1,355 @@
+{
+    //Section: Product principal
+    "flex-layout.row#pdp__section--principal-product": {
+        "title": "section principal product",
+        "children": [
+            "flex-layout.col#principal-info",
+            "flex-layout.col#product__image"
+        ]
+    },
+    "flex-layout.col#principal-info": {
+        "title": "Principal product info",
+        "children": [
+            "image#logo-hero11",
+            "rich-text#product",
+            "rich-text#old-price",
+            "rich-text#price",
+            "link.product#product-page"
+        ]
+    },
+    "image#logo-hero11": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2022/09/Site-HP-H11-Logo-1x.png",
+            "blockClass": "image-logo-hero11",
+            "width": "20%"
+        }
+    },
+    "rich-text#product": {
+        "props": {
+            "text": "## La cámara más versátil del <br> mundo, ahora al 11."
+        }
+    },
+    "rich-text#old-price": {
+        "props": {
+            "text": "3.099.900"
+        }
+    },
+    "rich-text#price": {
+        "props": {
+            "text": "### $2.299.900"
+        }
+    },
+    "flex-layout.col#product__image": {
+        "children": [
+            "flex-layout.row#product__info--image"
+        ]
+    },
+    //Section: Product information
+    "flex-layout.row#pdp__section--info-details-and-description": {
+        "title": "section info details",
+        "children": [
+            // "flex-layout.col#description",
+            // "flex-layout.col#details"
+            "image#product-details-and-description"
+        ],
+        "props": {}
+    },
+    "image#product-details-and-description": {
+        "props": {
+            "src": "assets/img/description.png",
+            "blockClass": "image-description",
+            "fullWidth": true
+        }
+    },
+    // "flex-layout.col#description": {
+    //     "title": "info description",
+    //     "children": [
+    //         "rich-text#description"
+    //     ]
+    // },
+    // "rich-text#description": {
+    //     "props": {
+    //         "text": "Descripción Recibe vídeos destacados automáticamente en tu teléfono con la HERO11 Black. Su nuevo sensor de imagen más grande captura más de la escena con mejor calidad de imagen para que puedas subir tus tomas verticales en redes al instante. HyperSmooth 5.0 cuenta con AutoBoost y Bloqueo del horizonte integrados para que consigas las tomas más fluidas e impresionantes. Los nuevos efectos nocturnos te aportan creatividad de noche, y el color de 10 bits da vida a todos tus vídeos. Todo esto hace de la HERO11 Black nuestra GoPro más potente hasta la fecha."
+    //     }
+    // },
+    // "flex-layout.col#details": {
+    //     "title": "info details",
+    //     "children": [
+    //         "rich-text#detail"
+    //     ]
+    // },
+    // "rich-text#detail": {
+    //     "props": {
+    //         "text": "Detalles del producto Incluye una cámara HERO11 Black, un estuche de transporte, una batería recargable Enduro, soportes adhesivos curvos, una hebilla de montaje, un tornillo, un cable USB-C. Sube automáticamente tu contenido a la nube y recibe un vídeo destacado mientras la cargas El nuevo sensor de imagen más grande ofrece un campo de visión más envolvente y amplio. Vídeo cinematográfico a 5,3K60 + 2,7K240 con fotos de 24,7 megapíxeles del vídeo. Increíbles fotos de alta resolución de 27 megapíxeles. Estabilización de vídeo HyperSmooth 5.0 ganadora de un Emmy con Bloqueo del horizonte. Sumergible hasta 10 m y resistente."
+    //     }
+    // },
+    //Section: features image
+    "flex-layout.row#image-features": {
+        "title": "section features image",
+        "children": [
+            "image#product_features"
+        ]
+    },
+    "image#product_features": {
+        "props": {
+            "src": "assets/img/features.png",
+            "blockClass": "image-features",
+            "fullWidth": true
+        }
+    },
+    //Section: Text video one
+    "flex-layout.row#pdp__section--text-video-product-one": {
+        "title": "section text video one",
+        "children": [
+            // "rich-text#video-one"
+            "image#text-video-one"
+        ],
+        "props": {}
+    },
+    "image#text-video-one": {
+        "props": {
+            "src": "assets/img/text-video-one.png",
+            "blockClass": "text-video-one",
+            "fullWidth": true
+        }
+    },
+    // "rich-text#video-one": {
+    //     "title": "Video one text",
+    //     "props": {
+    //         "text": "Vídeos de momentos destacados enviados a tu teléfono. Automáticamente."
+    //     }
+    // },
+    //Section: Video one
+    "flex-layout.row#pdp__section--video-product-one": {
+        "children": [
+            "video#PDP-video-one"
+        ],
+        "props": {}
+    },
+    "video#PDP-video-one": {
+        "title": "Video one",
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-video-one.mp4",
+            "blockClass": "-product-video-one",
+            "fullWidth": true
+        }
+    },
+    //Section: Text video two
+    "flex-layout.row#pdp__section--text-video-product-two": {
+        "title": "section text video two",
+        "children": [
+            // "rich-text#video-two"
+            "image#text-video-two"
+        ],
+        "props": {}
+    },
+    // "rich-text#video-two": {
+    //     "title": "Video two text",
+    //     "props": {
+    //         "text": "Una toma. Comparte donde quieras."
+    //     }
+    // },
+    "image#text-video-two": {
+        "props": {
+            "src": "assets/img/text-video-two.png",
+            "blockClass": "text-video-two",
+            "fullWidth": true
+        }
+    },
+    //Section: Video two
+    "flex-layout.row#pdp__section--video-product-two": {
+        "children": [
+            "video#PDP-video-two"
+        ],
+        "props": {}
+    },
+    "video#PDP-video-two": {
+        "title": "Video two",
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-video-two.mp4",
+            "blockClass": "-product-video-two",
+            "fullWidth": true
+        }
+    },
+    //Section: Text video three
+    "flex-layout.row#pdp__section--text-video-product-three": {
+        "title": "section text video three",
+        "children": [
+            // "rich-text#video-three"
+            "image#text-video-three"
+        ],
+        "props": {}
+    },
+    // "rich-text#video-three": {
+    //     "title": "Video three text",
+    //     "props": {
+    //         "text": "Captura allá donde solo una GoPro es capaz de llegar."
+    //     }
+    // },
+    "image#text-video-three": {
+        "props": {
+            "src": "assets/img/text-video-three.png",
+            "blockClass": "text-video-three",
+            "fullWidth": true
+        }
+    },
+    //Section: Video three
+    "flex-layout.row#pdp__section--video-product-three": {
+        "children": [
+            "video#PDP-video-three"
+        ],
+        "props": {}
+    },
+    "video#PDP-video-three": {
+        "title": "Video three",
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-video-three.mp4",
+            "blockClass": "-product-video-three",
+            "fullWidth": true
+        }
+    },
+    //section features battery
+    "flex-layout.row#pdp__section--features-battery": {
+        "title": "section",
+        "children": [
+            "image#battery_product"
+        ],
+        "props": {}
+    },
+    "image#battery_product": {
+        "props": {
+            "src": "assets/img/battery.png",
+            "blockClass": "image-battery",
+            "fullWidth": true
+        }
+    },
+    //section features battery
+    "flex-layout.row#pdp__section--features-cover": {
+        "title": "section",
+        "children": [
+            "image#cover_product"
+        ],
+        "props": {}
+    },
+    "image#cover_product": {
+        "props": {
+            "src": "assets/img/cover.png",
+            "blockClass": "image-cover",
+            "fullWidth": true
+        }
+    },
+    //section product screen
+    "flex-layout.row#pdp__section--product-screen": {
+        "title": "section",
+        "children": [
+            "flex-layout.col#pdp__section--product-screen-image",
+            "flex-layout.col#pdp__section--product-screen-video"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#pdp__section--product-screen-image": {
+        "children": [
+            "image#product-screen"
+        ]
+    },
+    "image#product-screen": {
+        "props": {
+            "src": "assets/img/product-screen.png",
+            "blockClass": "product-screen",
+            "fullWidth": false
+        }
+    },
+    "flex-layout.col#pdp__section--product-screen-video": {
+        "children": [
+            "video#product-screen"
+        ]
+    },
+    "video#product-screen": {
+        "props": {
+            "width": "100%",
+            "height": "451px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-screen.mp4",
+            "blockClass": "product-screen-video",
+            "fullWidth": false
+        }
+    },
+    //section hpyersmooth text
+    "flex-layout.row#pdp__section--hypersmooth-text": {
+        "title": "section hypersmooth",
+        "children": [
+            "image#text-hypersmooth"
+        ],
+        "props": {
+        }
+    },
+    "image#text-hypersmooth":{
+        "props": {
+            "src": "assets/img/hypersmooth.png",
+            "blockClass": "hypersmooth",
+            "fullWidth": true
+        }
+    },
+    //section hpyersmooth video
+    "flex-layout.row#pdp__section--hypersmooth-video": {
+        "title": "section",
+        "children": [
+            "video#hypersmooth"
+        ],
+        "props": {}
+    },
+    "video#hypersmooth":{
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/hypersmooth.mp4",
+            "blockClass": "hypersmooth-video",
+            "fullWidth": false
+        }
+    }
+    // "flex-layout.row#pdp__section--5,3k": {
+    //     "title": "section",
+    //     "children": [],
+    //     "props": {}
+    // },
+    // "flex-layout.row#pdp__section--hyperview": {
+    //     "title": "section",
+    //     "children": [],
+    //     "props": {}
+    // },
+    // "flex-layout.row#pdp__section--night": {
+    //     "title": "section",
+    //     "children": [],
+    //     "props": {}
+    // },
+    // "flex-layout.row#pdp__section--more-features": {
+    //     "title": "section",
+    //     "children": [],
+    //     "props": {}
+    // },
+    // "flex-layout.row#pdp__section--kit": {
+    //     "title": "section",
+    //     "children": [],
+    //     "props": {}
+    // }
+}

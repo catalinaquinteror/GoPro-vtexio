@@ -1,41 +1,112 @@
 {
-    "store.custom#contacto": {
-      "blocks": [
-        "flex-layout.row#contacto"
-      ]
-    },
-    "flex-layout.row#contacto": {
-      "children": [
-        "image#contacto",
-        "flex-layout.col#text-contacto"
-      ]
-    },
-    "flex-layout.col#text-contacto": {
-      "children": [
-        "rich-text#about-title",
-        "rich-text#about-content"
-      ],
-          "props": {
-        "preventVerticalStretch": true
-      }
-    },
-   "rich-text#about-title": {
-      "props": {
-        "text":
-        "# About us Title"
-      }
-    },
-    "rich-text#about-content": {
-      "props": {
-        "text":
-        " About us content - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
-      }
-    },
-    "image#contacto": {
-      "props": {
-        // "src": "",
-        "maxHeight": "600px"
-      }
+  "store.custom#contacto": {
+    "blocks": [
+      "flex-layout.row#-image-contact",
+      "rich-text#contact",
+      "flex-layout.row#-contact"
+    ]
+  },
+  "flex-layout.row#-image-contact": {
+    "title": "image contact",
+    "children": [
+      "image#contact"
+    ]
+  },
+  "image#contact": {
+    "props": {
+      "src": "assets/img/contacto.png",
+      "blockClass": "contacto",
+      "fullWidth": true
     }
-   }
-   
+  },
+  "rich-text#contact":{
+    "props": {
+      "text": "## ¡Escríbenos y nosotros te contactamos!",
+      "blockClass": "text-contact"
+    }
+  },
+  "flex-layout.row#-contact": {
+    "children": [
+      "flex-layout.col#video-contact",
+      "flex-layout.col#form-contact"
+    ],
+    "props": {
+      "blockClass": "row-contact"
+    }
+  },
+  "flex-layout.col#video-contact":{
+    "children": [
+      "video#contact"
+    ],
+    "props": {
+      "blockClass": "video-contacto"
+    }
+  },
+  "video#contact": {
+    "title": "Video contact",
+    "props": {
+        "width": "80%",
+        "height": "300px",
+        "loop": true,
+        "autoPlay": true,
+        "muted": true,
+        "src": "assets/img/video-contacto.mp4",
+        "blockClass": "video-contact",
+        "fullWidth": true
+    }
+},
+"flex-layout.col#form-contact":{
+  "children": [
+    "newsletter-form"
+  ],
+  "props": {
+    "blockClass": "form-contacto"
+  }
+},
+"newsletter-form": {
+  "children": [
+    "newsletter-input-name",
+    "newsletter-input-email",
+    "newsletter-input-phone",
+    "newsletter-checkbox-confirmation",
+    "newsletter-submit"
+  ],
+  "props": {
+    "blockClass": "form-contact"
+  }
+},
+"newsletter-input-name":{
+  "props": {
+    "placeholderText": "Nombre"
+  }
+},
+"newsletter-input-email":{
+  "props": {
+    "placeholderText": "Correo electrónico"
+  }
+},
+"newsletter-input-phone":{
+  "props": {
+    "placeholderText": "Mensaje"
+  }
+},
+"newsletter-checkbox-confirmation":{
+  "props": {
+    "checkboxLabel": "Al suministrar y enviar sus datos, usted confirma que ha leído y aceptado los términos y condiciones de la Política de Tratamiento de Datos Personales de GoPro."
+  }
+},
+"newsletter-submit":{
+  "props": {
+    "submitButtonLabel": "Enviar"
+  }
+}
+  // "flex-layout.col#text-contacto": {
+  //   "children": [
+  //     "rich-text#about-title",
+  //     "rich-text#about-content"
+  //   ],
+  //   "props": {
+  //     "preventVerticalStretch": true
+  //   }
+  // }
+}
