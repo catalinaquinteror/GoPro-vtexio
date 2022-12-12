@@ -33,5 +33,12 @@
             // "flex-layout.row#product__info",
             // "flex-layout.row#product__tabs"
         ]
+    },
+    "whatsapp-button": {
+        "props": {
+            "logo": "assets/img/whatsapp-logo.png",
+            "phone": "7777777",
+            "message": "vtex prueba"
+        }
     }
 }
