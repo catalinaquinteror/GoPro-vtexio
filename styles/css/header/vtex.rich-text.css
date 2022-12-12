@@ -8,3 +8,8 @@
     font-size:x-large;
     font-weight:500
 }
+
+.container--text-contact {
+    display: flex;
+    justify-content: center;
+}

@@ -2,21 +2,24 @@
     "store.product": {
         "blocks": [
             "flex-layout.row#pdp__section--principal-product",
-            "flex-layout.row#pdp__section--info-product",
+            "flex-layout.row#pdp__section--info-details-and-description",
             "flex-layout.row#image-features",
-            // "flex-layout.row#pdp__section--text-video-product-one",
-            // "flex-layout.row#pdp__section--video-product-one",
-            // "flex-layout.row#pdp__section--text-video-product-two",
-            // "flex-layout.row#pdp__section--video-product-two",
-            // "flex-layout.row#pdp__section--text-video-product-three",
-            // "flex-layout.row#pdp__section--video-product-three",
-            "flex-layout.row#pdp__section--features",
-            "flex-layout.row#pdp__section--hypersmooth",
-            "flex-layout.row#pdp__section--5,3k",
-            "flex-layout.row#pdp__section--hyperview",
-            "flex-layout.row#pdp__section--night",
-            "flex-layout.row#pdp__section--more-features",
-            "flex-layout.row#pdp__section--kit"
+            "flex-layout.row#pdp__section--text-video-product-one",
+            "flex-layout.row#pdp__section--video-product-one",
+            "flex-layout.row#pdp__section--text-video-product-two",
+            "flex-layout.row#pdp__section--video-product-two",
+            "flex-layout.row#pdp__section--text-video-product-three",
+            "flex-layout.row#pdp__section--video-product-three",
+            "flex-layout.row#pdp__section--features-battery",
+            "flex-layout.row#pdp__section--features-cover",
+            "flex-layout.row#pdp__section--product-screen",
+            "flex-layout.row#pdp__section--hypersmooth-text",
+            "flex-layout.row#pdp__section--hypersmooth-video"
+            // "flex-layout.row#pdp__section--5,3k",
+            // "flex-layout.row#pdp__section--hyperview",
+            // "flex-layout.row#pdp__section--night",
+            // "flex-layout.row#pdp__section--more-features",
+            // "flex-layout.row#pdp__section--kit"
         ]
     }
     // "store.product": {
