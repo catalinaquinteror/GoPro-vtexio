@@ -1,18 +1,18 @@
 .cartIcon {
-    width: 80px;
-    height: 80px;
-    border-style: none;
+    width: 55px;
+    height: 55px;
     color: transparent;
     background-size: contain;
     background-image: url(assets/img/shopping-cart.png);
-    object-fit: contain;
+    background-repeat: no-repeat;
 }
 
-.openIconContainer {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
-}
+/* .openIconContainer { */
+    /* padding-right: 3%; */
+    /* width: 60px; */
+    /* height: 60px; */
+    /* object-fit: contain; */
+/* } */
 
 .openIconContainer:hover {
     background-color: transparent;

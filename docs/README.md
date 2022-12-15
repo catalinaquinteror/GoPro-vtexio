@@ -1,20 +1,18 @@
-# Store Theme e-commerce Go-Pro Colombia
-
 GoPro-vtexio was developed with VTEX IO technology.
 
 [GoPro Colombia](https://goprocol.co) is the e-commerce used to replicate with VTEX IO technology.
 
-****
+---
 
 ## Image Roll
 
 ### Desktop
 
-***
+---
 
 ### Mobile
 
-***
+---
 
 ## Configs
 
@@ -29,9 +27,3 @@ GoPro-vtexio was developed with VTEX IO technology.
 ### Step 5
 
 ### Step 6
-
-
-
-
-
-
