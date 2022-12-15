@@ -90,8 +90,8 @@
     },
     "flex-layout.col#miniCart__footer":{
         "children": [
-            "minicart-summary",
-            "minicart-checkout-button",
+            // "minicart-summary",
+            // "minicart-checkout-button",
             "drawer-close-button"
         ]
     }

@@ -22,8 +22,8 @@
             "logo",
             // "flex-layout.col#spacer",
             // "login",
-            "login",
-            "minicart.v2"
+            "login"
+            // "minicart.v2"
         ],
         "props": {
             "blockClass": "main-header-mobile",

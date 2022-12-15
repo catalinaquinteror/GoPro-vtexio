@@ -1,1 +1,3 @@
-# GoPro-e-commerce
+# Store Theme e-commerce Go-Pro
+===================================
+
