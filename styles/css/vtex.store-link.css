@@ -1,71 +1,29 @@
-/* .buttonLink--call-to-action__button {
-    position: absolute;
-    /* display: flex;
-    justify-content: flex-end; */
-    /* width: 10%; */
-    background-color: white;
-    /* Green 
+.buttonLink--call-to-action__button {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: green;
     border: none;
-    color: black;
-    padding: 15px 32px;
+    color: yellow;
+    align-content: center;
+    padding-top: 10px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width: 50%;
+    border-radius: 10%;
+    height: auto; /*de ambos */
+    bottom: 40px;
+    left: 70px;
+    z-index: 995;
+    transform: rotate(45deg);
+    translate:global(buttonLink--call-to-action__button) ;
 }
 
 .buttonLink--call-to-action__button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
+    background-color: yellow;
+    color: green;
+    border-style:solid;
+    border-color: green;
+    border-radius: 10%;
+    z-index: 999;
 }
-
-.label--call-to-action__button {
-    /* position: relative; */
-    /* display: flex;
-    justify-content: flex-end; */
-    /* width: 10%; */
-    background-color: white;
-    /* Green 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 50%;
-}
-
-.label--call-to-action__button:hover{
-    background-color: black;
-    color: white;
-    border-color: white;
-}
-
-.link--call-to-action__button {
-    /* z-index: 2;
-    position: absolute; */
-    background-color: white;
-    /* Green 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 50%;
-}
-
-.link--call-to-action__button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
-} */
-/* .vtex-store-link-0-x-link--call-to-action__button {
-    position: absolute;
-    display: flex;
-    justify-content: flex-start;
-} */

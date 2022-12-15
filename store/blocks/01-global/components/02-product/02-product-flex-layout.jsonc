@@ -15,7 +15,10 @@
             "rich-text#old-price",
             "rich-text#price",
             "link.product#product-page"
-        ]
+        ],
+        "props": {
+            "blockClass": "principal-info-product"
+        }
     },
     "image#logo-hero11": {
         "props": {
@@ -26,17 +29,20 @@
     },
     "rich-text#product": {
         "props": {
-            "text": "## La cámara más versátil del <br> mundo, ahora al 11."
+            "text": "## La cámara más versátil del <br> mundo, ahora al 11.",
+            "blockClass": "text-product"
         }
     },
     "rich-text#old-price": {
         "props": {
-            "text": "3.099.900"
+            "text": "3.099.900",
+            "blockClass": "old-price"
         }
     },
     "rich-text#price": {
         "props": {
-            "text": "### $2.299.900"
+            "text": "### $2.299.900",
+            "blockClass": "price"
         }
     },
     "flex-layout.col#product__image": {

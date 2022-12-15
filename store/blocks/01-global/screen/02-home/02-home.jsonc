@@ -1,7 +1,7 @@
 {
     "store.home": {
         "blocks": [
-            "whatsapp-button",
+            // "whatsapp-button",
             // "rich-text#home__container--text",
             // "image#home__container--image",
             // "link#home__link--ancla",
@@ -16,7 +16,7 @@
             "flex-layout.row#home__section--two",
             "flex-layout.row#home__section--three",
             "responsive-layout.desktop",
-            "responsive-layout.mobile"
+            "responsive-layout.mobile",
             // "header-layout.desktop"
             // "modal-trigger#home__modal--children",
             // "modal-trigger#home__modal--event"
@@ -26,13 +26,7 @@
             // "flex-layout.row#product__breadcrumb",
             // "flex-layout.row#product__info",
             // "flex-layout.row#product__tabs"
+            "flex-layout.row#home__section-whatsapp-and-minicart"
         ]
-    },
-    "whatsapp-button": {
-        "props": {
-            "logo": "assets/img/whatsapp-logo.png",
-            "phone": "7777777",
-            "message": "vtex prueba"
-        }
     }
 }

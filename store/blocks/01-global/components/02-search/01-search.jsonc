@@ -43,6 +43,12 @@
             "blockClass": "image-nofound"
         }
     },
+    "rich-text#gallery":{
+        "props": {
+            "text": "## Cámaras",
+            "blockClass": "text-department"
+        }
+    },
     "flex-layout.col#home__results--filter": {
         "props": {
             "width": "30%"

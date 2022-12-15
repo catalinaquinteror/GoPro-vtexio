@@ -26,7 +26,7 @@
             "search-bar",
             // "locale-switcher", //Esto modifica el idioma en la version desktop
             "login",
-            "minicart.v2",
+            // "minicart.v2",
             "overlay-trigger"
         ],
         "props": {
@@ -37,6 +37,11 @@
             "preventVerticalStretch": true,
             "fullWidth": true
         }
+    },
+    "search-bar":{
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ]
     },
     "flex-layout.col#spacer": {
         "props": {

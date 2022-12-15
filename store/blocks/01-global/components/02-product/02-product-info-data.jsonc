@@ -15,7 +15,10 @@
     "product-images#product__info--image":{
         "title": "Imágenes",
         "props": {
-            "displayThumbnailsArrows": false
+            "showPaginationDots": false,
+            "displayThumbnailsArrows": false,
+            "thumbnailsOrientation": "horizontal",
+            "maxHeight": 350
         }
     },
     "flex-layout.row#product__info--data": {

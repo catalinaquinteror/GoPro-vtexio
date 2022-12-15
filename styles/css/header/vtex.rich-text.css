@@ -1,7 +1,6 @@
 .container--header-promo {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
 }
 
 .paragraph--header-promo {
@@ -12,4 +11,13 @@
 .container--text-contact {
     display: flex;
     justify-content: center;
+}
+
+.container--text-department {
+    display: flex;
+    justify-content: center;
+    color: #085DA8;
+}
+.headingLevel2--text-department {
+    font-size:xx-large;
 }
