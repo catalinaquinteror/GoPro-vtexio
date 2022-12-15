@@ -1,8 +1,14 @@
+.flexCol--home__section {
+    height: auto;
+}
+
 .flexColChild--home__section--one-a {
     margin: 5%;
+    /* object-fit: contain; */
 }
 .flexColChild--home__section--one-b {
     margin: 5%;
+    /* object-fit: contain; */
 }
 
 
@@ -51,5 +57,5 @@ margin-top: 20%;
 .flexRow--home__section-whatsapp-and-minicart {
     position: fixed;
     bottom: 1.6rem;
-    right: 2.5rem;
+    right: 1rem;
 }
