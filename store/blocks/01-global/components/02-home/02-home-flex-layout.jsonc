@@ -107,7 +107,7 @@
     "whatsapp-button": {
         "props": {
             "logo": "assets/img/logo.png"
-            // "blockClass": "whatsapp-button"
+            // "blockClass": "whatsapp-btn"
         }
     }
 }

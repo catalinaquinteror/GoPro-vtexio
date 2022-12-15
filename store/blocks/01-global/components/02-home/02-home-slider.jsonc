@@ -1,6 +1,19 @@
 {
+  "flex-layout.row#home__slider": {
+    "title": "Home slider",
+    "children": [
+      "flex-layout.col#home__slider"
+    ]
+  },
+  "flex-layout.col#home__slider":{
+    "children": [
+      "list-context.image-list#home__slider--list"
+    ]
+  },
+
+  
   "list-context.image-list#home__slider--list": {
-    "title": "List of images",
+    "title": "Slider",
     "children": [
       "slider-layout#home__slider--list"
     ],
@@ -33,7 +46,8 @@
           "image": "assets/img/main-slide-6.png",
           "description": "Slide 6"
         }
-      ]
+      ],
+      "height": 650
     }
   },
   "slider-layout#home__slider--list": {
