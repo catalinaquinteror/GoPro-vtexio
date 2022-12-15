@@ -2,7 +2,7 @@
 
 GoPro-vtexio was developed with VTEX IO technology.
 
-[GoPro Colombia](https://goprocol.co) is the e-commerce used to replicate with VTEX IO technology.
+[GoPro Colombia](https://goprocol.co) is the e-commerce used to replicate VTEX IO technology.
 
 ****
 
