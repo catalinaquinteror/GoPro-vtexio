@@ -73,7 +73,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/aplicaciones",
+                "href": "/contacto",
                 "noFollow": false,
                 "tagTitle": "APLICACIONES",
                 "text": "APLICACIONES"
@@ -87,7 +87,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/noticias",
+                "href": "/contacto",
                 "noFollow": false,
                 "tagTitle": "NOTICIAS",
                 "text": "NOTICIAS"
@@ -115,7 +115,7 @@
             "type": "custom",
             "itemProps": {
                 "type": "internal",
-                "href": "/q&a",
+                "href": "/contacto",
                 "noFollow": false,
                 "tagTitle": "Q&A",
                 "text": "Q&A"

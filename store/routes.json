@@ -1,14 +1,5 @@
 {
-    "store.custom#aplicaciones":{
-        "path": "/aplicaciones"
-    },
-    "store.custom#noticias":{
-        "path": "/noticias"
-    },
     "store.custom#contacto":{
         "path": "/contacto"
-    },
-    "store.custom#q&a":{
-        "path": "/q&a"
     }
 }

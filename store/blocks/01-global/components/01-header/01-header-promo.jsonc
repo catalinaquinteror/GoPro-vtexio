@@ -1,5 +1,6 @@
 {
     "rich-text#envio":{
+        "title": "Header promo",
         "props": {
             "text": "Lleva tu cámara con envio gratis",
             "blockClass":"header-promo"

@@ -58,7 +58,8 @@
     "vtex.product-price": "1.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
     "vtex.store-media": "0.x",
-    "vtex.store-video": "1.x"
+    "vtex.store-video": "1.x",
+    "vtex.store-newsletter": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

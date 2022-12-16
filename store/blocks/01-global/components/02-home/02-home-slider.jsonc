@@ -1,6 +1,6 @@
 {
   "list-context.image-list#home__slider--list": {
-    "title": "List of images",
+    "title": "Slider",
     "children": [
       "slider-layout#home__slider--list"
     ],
@@ -9,41 +9,70 @@
       "images": [
         {
           "image": "assets/img/main-slide-1.png",
-          "description": "Slide 1"
-          // "link": {"https://google.com"}
+          "description": "Slide 1",
+          "link": {
+            "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+            "newTab": false,
+            "attributeNoFollow": true
+        }
         },
         {
           "image": "assets/img/main-slide-2.png",
-          "description": "Slide 2"
-          // "href": "https://google.com"
+          "description": "Slide 2",
+          "link": {
+            "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+            "newTab": false,
+            "attributeNoFollow": true
+        }
         },
         {
           "image": "assets/img/main-slide-3.png",
-          "description": "Slide 3"
+          "description": "Slide 3",
+          "link": {
+            "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+            "newTab": false,
+            "attributeNoFollow": true
+        }
         },
         {
           "image": "assets/img/main-slide-4.png",
-          "description": "Slide 4"
+          "description": "Slide 4",
+          "link": {
+            "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+            "newTab": false,
+            "attributeNoFollow": true
+        }
         },
         {
           "image": "assets/img/main-slide-5.png",
-          "description": "Slide 5"
+          "description": "Slide 5",
+          "link": {
+            "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+            "newTab": false,
+            "attributeNoFollow": true
+        }
         },
         {
           "image": "assets/img/main-slide-6.png",
-          "description": "Slide 6"
+          "description": "Slide 6",
+          "link": {
+            "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+            "newTab": false,
+            "attributeNoFollow": true
         }
-      ]
+        }
+      ],
+      "height": 650
     }
   },
   "slider-layout#home__slider--list": {
     "title": "List of image slider",
     "props": {
-    //   "link": {
-    //     "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
-    //     "newTab": true,
-    //     "attributeNoFollow": false
-    // },
+      "link": {
+        "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+        "newTab": true,
+        "attributeNoFollow": false
+    },
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,

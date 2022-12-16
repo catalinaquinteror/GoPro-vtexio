@@ -1,71 +1,31 @@
-/* .buttonLink--call-to-action__button {
-    position: absolute;
-    /* display: flex;
-    justify-content: flex-end; */
-    /* width: 10%; */
+.buttonLink--call-to-action__button {
+    display: flex;
     background-color: white;
-    /* Green 
     border: none;
     color: black;
-    padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 50%;
+    font-size: 15px;
+    border-radius: 10px;
+    height: auto;
+    bottom: -330px;
+    left: 75px;
+    z-index: 995;
+    position: absolute;
+    box-sizing: border-box;
 }
 
 .buttonLink--call-to-action__button:hover {
     background-color: black;
     color: white;
+    border-style:solid;
     border-color: white;
+    /* z-index: 999; */
+    box-sizing: border-box;
 }
 
-.label--call-to-action__button {
-    /* position: relative; */
-    /* display: flex;
-    justify-content: flex-end; */
-    /* width: 10%; */
-    background-color: white;
-    /* Green 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 50%;
+@media (max-width: 600px) {
+    .buttonLink--call-to-action__button {
+        bottom: 370px;
+        left: 20px;
+    }
 }
-
-.label--call-to-action__button:hover{
-    background-color: black;
-    color: white;
-    border-color: white;
-}
-
-.link--call-to-action__button {
-    /* z-index: 2;
-    position: absolute; */
-    background-color: white;
-    /* Green 
-    border: none;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 50%;
-}
-
-.link--call-to-action__button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
-} */
-/* .vtex-store-link-0-x-link--call-to-action__button {
-    position: absolute;
-    display: flex;
-    justify-content: flex-start;
-} */

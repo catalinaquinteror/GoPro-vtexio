@@ -20,7 +20,6 @@
     "flex-layout.row#home__results": {
         "title": "Search Result Container",
         "children": [
-            "flex-layout.col#home__results--filter",
             "flex-layout.col#home__results--search"
         ],
         "props": {
@@ -41,6 +40,12 @@
             "text": "error 404",
             // "src": "",
             "blockClass": "image-nofound"
+        }
+    },
+    "rich-text#gallery":{
+        "props": {
+            "text": "## Cámaras",
+            "blockClass": "text-department"
         }
     },
     "flex-layout.col#home__results--filter": {
@@ -68,45 +73,6 @@
     "gallery": {
         "blocks": [
             "product-summary.shelf"
-        ]
-    },
-    "modal-trigger#global__quick-view": {
-        "children": [
-            "rich-text#global__quick-view--trigger",
-            "modal-layout#global__quick-view--modal"
-        ]
-    },
-    "rich-text#global__quick-view--trigger": {
-        "props": {
-            "text": "Vista Rapida",
-            "blockClass": "quick-view__triger"
-        }
-    },
-    "modal-layout#global__quick-view--modal": {
-        "children": [
-            "flex-layout.row#quick-view__modal"
-        ]
-    },
-    "flex-layout.row#quick-view__modal": {
-        "children": [
-            "flex-layout.col#quick-view__modal--image",
-            "flex-layout.col#quick-view__modal--info"
-        ]
-    },
-    "flex-layout.col#quick-view__modal--image": {
-        "children": [
-            "product-images"
-        ]
-    },
-    "flex-layout.col#quick-view__modal--info": {
-        "children": [
-            "add-to-list-btn",
-            "vtex.store-components:product-name",
-            "vtex.store-components:product-brand",
-            "product-price",
-            "share",
-            "product-quantity",
-            "add-to-cart-button"
         ]
     }
 }

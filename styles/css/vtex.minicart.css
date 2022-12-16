@@ -1,0 +1,23 @@
+.cartIcon {
+    width: 55px;
+    height: 55px;
+    color: transparent;
+    background-size: contain;
+    background-image: url(assets/img/shopping-cart.png);
+    background-repeat: no-repeat;
+}
+
+/* .openIconContainer { */
+    /* padding-right: 3%; */
+    /* width: 60px; */
+    /* height: 60px; */
+    /* object-fit: contain; */
+/* } */
+
+.openIconContainer:hover {
+    background-color: transparent;
+}
+
+.cartIcon:hover {
+    background-color: transparent;
+}

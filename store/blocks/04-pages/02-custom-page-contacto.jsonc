@@ -1,0 +1,103 @@
+{
+  "store.custom#contacto": {
+    "blocks": [
+      "flex-layout.row#-image-contact",
+      "rich-text#contact",
+      "flex-layout.row#-contact"
+    ]
+  },
+  "flex-layout.row#-image-contact": {
+    "title": "image contact",
+    "children": [
+      "image#contact"
+    ]
+  },
+  "image#contact": {
+    "props": {
+      "src": "assets/img/contacto.png",
+      "blockClass": "contacto",
+      "fullWidth": true
+    }
+  },
+  "rich-text#contact":{
+    "props": {
+      "text": "## ¡Escríbenos y nosotros te contactamos!",
+      "blockClass": "text-contact"
+    }
+  },
+  "flex-layout.row#-contact": {
+    "children": [
+      "flex-layout.col#video-contact",
+      "flex-layout.col#form-contact"
+    ],
+    "props": {
+      "blockClass": "row-contact"
+    }
+  },
+  "flex-layout.col#video-contact":{
+    "children": [
+      "video#contact"
+    ],
+    "props": {
+      "blockClass": "video-contacto"
+    }
+  },
+  "video#contact": {
+    "title": "Video contact",
+    "props": {
+        "width": "80%",
+        "height": "300px",
+        "loop": true,
+        "autoPlay": true,
+        "muted": true,
+        "src": "assets/img/video-contacto.mp4",
+        "blockClass": "video-contact",
+        "fullWidth": true
+    }
+},
+"flex-layout.col#form-contact":{
+  "children": [
+    "newsletter-form"
+  ],
+  "props": {
+    "blockClass": "form-contacto"
+  }
+},
+"newsletter-form": {
+  "children": [
+    "newsletter-input-name",
+    "newsletter-input-email",
+    "newsletter-input-phone",
+    "newsletter-checkbox-confirmation",
+    "newsletter-submit"
+  ],
+  "props": {
+    "blockClass": "form-contact"
+  }
+},
+"newsletter-input-name":{
+  "props": {
+    "placeholderText": "Nombre"
+  }
+},
+"newsletter-input-email":{
+  "props": {
+    "placeholderText": "Correo electrónico"
+  }
+},
+"newsletter-input-phone":{
+  "props": {
+    "placeholderText": "Mensaje"
+  }
+},
+"newsletter-checkbox-confirmation":{
+  "props": {
+    "checkboxLabel": "Al suministrar y enviar sus datos, usted confirma que ha leído y aceptado los términos y condiciones de la Política de Tratamiento de Datos Personales de GoPro."
+  }
+},
+"newsletter-submit":{
+  "props": {
+    "submitButtonLabel": "Enviar"
+  }
+}
+}

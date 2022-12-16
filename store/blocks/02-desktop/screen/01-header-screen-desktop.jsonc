@@ -1,13 +1,9 @@
 {
     "header-layout.desktop": {
-        "title": "header desktop",
+        "title": "Header desktop",
         "children": [
             "rich-text#envio",
-            // "header-row#header__top",
-            // "header-row#header__middle"
             "sticky-layout#desktop"
-            // "flex-layout.row#desktop"
-
         ]
     },
     "sticky-layout#desktop": {
@@ -24,9 +20,7 @@
             "flex-layout.col#spacer",
             "menu#header__menu-desktop",
             "search-bar",
-            // "locale-switcher", //Esto modifica el idioma en la version desktop
             "login",
-            "minicart.v2",
             "overlay-trigger"
         ],
         "props": {
@@ -37,6 +31,11 @@
             "preventVerticalStretch": true,
             "fullWidth": true
         }
+    },
+    "search-bar":{
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ]
     },
     "flex-layout.col#spacer": {
         "props": {

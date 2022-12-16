@@ -1,0 +1,291 @@
+{
+    //Section: Product principal
+    "flex-layout.row#pdp__section--principal-product": {
+        "title": "section principal product",
+        "children": [
+            "flex-layout.col#principal-info",
+            "flex-layout.col#product__image"
+        ]
+    },
+    "flex-layout.col#principal-info": {
+        "title": "Principal product info",
+        "children": [
+            "image#logo-hero11",
+            "rich-text#product",
+            "rich-text#old-price",
+            "rich-text#price",
+            "link.product#product-page"
+        ],
+        "props": {
+            "blockClass": "principal-info-product"
+        }
+    },
+    "image#logo-hero11": {
+        "props": {
+            "src": "https://goprocol.co/wp-content/uploads/2022/09/Site-HP-H11-Logo-1x.png",
+            "blockClass": "image-logo-hero11",
+            "width": "20%"
+        }
+    },
+    "rich-text#product": {
+        "props": {
+            "text": "## La cámara más versátil del <br> mundo, ahora al 11.",
+            "blockClass": "text-product"
+        }
+    },
+    "rich-text#old-price": {
+        "props": {
+            "text": "3.099.900",
+            "blockClass": "old-price"
+        }
+    },
+    "rich-text#price": {
+        "props": {
+            "text": "### $2.299.900",
+            "blockClass": "price"
+        }
+    },
+    "flex-layout.col#product__image": {
+        "children": [
+            "flex-layout.row#product__info--image"
+        ]
+    },
+    //Section: Product information
+    "flex-layout.row#pdp__section--info-details-and-description": {
+        "title": "section info details",
+        "children": [
+            "image#product-details-and-description"
+        ],
+        "props": {}
+    },
+    "image#product-details-and-description": {
+        "props": {
+            "src": "assets/img/description.png",
+            "blockClass": "image-description",
+            "fullWidth": true
+        }
+    },
+    //Section: features image
+    "flex-layout.row#image-features": {
+        "title": "section features image",
+        "children": [
+            "image#product_features"
+        ]
+    },
+    "image#product_features": {
+        "props": {
+            "src": "assets/img/features.png",
+            "blockClass": "image-features",
+            "fullWidth": true
+        }
+    },
+    //Section: Text video one
+    "flex-layout.row#pdp__section--text-video-product-one": {
+        "title": "section text video one",
+        "children": [
+            "image#text-video-one"
+        ],
+        "props": {}
+    },
+    "image#text-video-one": {
+        "props": {
+            "src": "assets/img/text-video-one.png",
+            "blockClass": "text-video-one",
+            "fullWidth": true
+        }
+    },
+    //Section: Video one
+    "flex-layout.row#pdp__section--video-product-one": {
+        "children": [
+            "video#PDP-video-one"
+        ],
+        "props": {}
+    },
+    "video#PDP-video-one": {
+        "title": "Video one",
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-video-one.mp4",
+            "blockClass": "-product-video-one",
+            "fullWidth": true
+        }
+    },
+    //Section: Text video two
+    "flex-layout.row#pdp__section--text-video-product-two": {
+        "title": "section text video two",
+        "children": [
+            "image#text-video-two"
+        ],
+        "props": {}
+    },
+    "image#text-video-two": {
+        "props": {
+            "src": "assets/img/text-video-two.png",
+            "blockClass": "text-video-two",
+            "fullWidth": true
+        }
+    },
+    //Section: Video two
+    "flex-layout.row#pdp__section--video-product-two": {
+        "children": [
+            "video#PDP-video-two"
+        ],
+        "props": {}
+    },
+    "video#PDP-video-two": {
+        "title": "Video two",
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-video-two.mp4",
+            "blockClass": "-product-video-two",
+            "fullWidth": true
+        }
+    },
+    //Section: Text video three
+    "flex-layout.row#pdp__section--text-video-product-three": {
+        "title": "section text video three",
+        "children": [
+            "image#text-video-three"
+        ],
+        "props": {}
+    },
+    "image#text-video-three": {
+        "props": {
+            "src": "assets/img/text-video-three.png",
+            "blockClass": "text-video-three",
+            "fullWidth": true
+        }
+    },
+    //Section: Video three
+    "flex-layout.row#pdp__section--video-product-three": {
+        "children": [
+            "video#PDP-video-three"
+        ],
+        "props": {}
+    },
+    "video#PDP-video-three": {
+        "title": "Video three",
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-video-three.mp4",
+            "blockClass": "-product-video-three",
+            "fullWidth": true
+        }
+    },
+    //section features battery
+    "flex-layout.row#pdp__section--features-battery": {
+        "title": "section",
+        "children": [
+            "image#battery_product"
+        ],
+        "props": {}
+    },
+    "image#battery_product": {
+        "props": {
+            "src": "assets/img/battery.png",
+            "blockClass": "image-battery",
+            "fullWidth": true
+        }
+    },
+    //section features battery
+    "flex-layout.row#pdp__section--features-cover": {
+        "title": "section",
+        "children": [
+            "image#cover_product"
+        ],
+        "props": {}
+    },
+    "image#cover_product": {
+        "props": {
+            "src": "assets/img/cover.png",
+            "blockClass": "image-cover",
+            "fullWidth": true
+        }
+    },
+    //section product screen
+    "flex-layout.row#pdp__section--product-screen": {
+        "title": "section",
+        "children": [
+            "flex-layout.col#pdp__section--product-screen-image",
+            "flex-layout.col#pdp__section--product-screen-video"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#pdp__section--product-screen-image": {
+        "children": [
+            "image#product-screen"
+        ]
+    },
+    "image#product-screen": {
+        "props": {
+            "src": "assets/img/product-screen.png",
+            "blockClass": "product-screen",
+            "fullWidth": false
+        }
+    },
+    "flex-layout.col#pdp__section--product-screen-video": {
+        "children": [
+            "video#product-screen"
+        ]
+    },
+    "video#product-screen": {
+        "props": {
+            "width": "100%",
+            "height": "451px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/product-screen.mp4",
+            "blockClass": "product-screen-video",
+            "fullWidth": false
+        }
+    },
+    //section hpyersmooth text
+    "flex-layout.row#pdp__section--hypersmooth-text": {
+        "title": "section hypersmooth",
+        "children": [
+            "image#text-hypersmooth"
+        ],
+        "props": {
+        }
+    },
+    "image#text-hypersmooth":{
+        "props": {
+            "src": "assets/img/hypersmooth.png",
+            "blockClass": "hypersmooth",
+            "fullWidth": true
+        }
+    },
+    //section hpyersmooth video
+    "flex-layout.row#pdp__section--hypersmooth-video": {
+        "title": "section",
+        "children": [
+            "video#hypersmooth"
+        ],
+        "props": {}
+    },
+    "video#hypersmooth":{
+        "props": {
+            "width": "100%",
+            "height": "600px",
+            "loop": true,
+            "autoPlay": true,
+            "muted": true,
+            "src": "assets/img/hypersmooth.mp4",
+            "blockClass": "hypersmooth-video",
+            "fullWidth": false
+        }
+    }
+}

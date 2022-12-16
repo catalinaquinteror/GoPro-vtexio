@@ -1,17 +1,14 @@
-.videoElement--video-home {
-    /* border-color: black; */
-    border-style: none;
-    /* z-index: 1; */
+.videoElement--video-contact {
+    border-radius: 3%;
 }
 
-/* .videoContainer--video-home {
-    /* z-index: 1;
-} */
-/* @media (max-width: 600px) {
-    .videoElement--video-home {
-        height: 300px !important;
-    }
-} */
+.videoElement {
+    object-fit: cover;
+}
+
+.videoElement--video-home {
+    height: auto !important;
+}
 
 @media (max-width: 600px) {
     .videoContainer--video-home {
