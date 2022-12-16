@@ -1,0 +1,13 @@
+{
+    //Section: Two.
+    "flex-layout.row#home__section--two": {
+        "title": "Section: Two",
+        "children": [
+            "image#home__image--section-two"
+        ],
+        "props": {
+            "blockClass": "home__section--two",
+            "fullWidth": true
+        }
+    }
+}

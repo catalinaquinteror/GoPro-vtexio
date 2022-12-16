@@ -100,13 +100,4 @@
     "submitButtonLabel": "Enviar"
   }
 }
-  // "flex-layout.col#text-contacto": {
-  //   "children": [
-  //     "rich-text#about-title",
-  //     "rich-text#about-content"
-  //   ],
-  //   "props": {
-  //     "preventVerticalStretch": true
-  //   }
-  // }
 }

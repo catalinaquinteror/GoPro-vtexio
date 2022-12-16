@@ -1,6 +1,6 @@
 {
     "header-layout.mobile": {
-        "title": "header mobile",
+        "title": "Header mobile",
         "children": [
             "rich-text#envio",
             "sticky-layout#mobile"
@@ -18,12 +18,8 @@
     "flex-layout.row#mobile": {
         "children": [
             "drawer#header__mobile--menu",
-            // "header-spacer",
             "logo",
-            // "flex-layout.col#spacer",
-            // "login",
             "login"
-            // "minicart.v2"
         ],
         "props": {
             "blockClass": "main-header-mobile",

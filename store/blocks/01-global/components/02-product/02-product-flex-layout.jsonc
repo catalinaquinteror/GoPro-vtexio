@@ -54,8 +54,6 @@
     "flex-layout.row#pdp__section--info-details-and-description": {
         "title": "section info details",
         "children": [
-            // "flex-layout.col#description",
-            // "flex-layout.col#details"
             "image#product-details-and-description"
         ],
         "props": {}
@@ -67,28 +65,6 @@
             "fullWidth": true
         }
     },
-    // "flex-layout.col#description": {
-    //     "title": "info description",
-    //     "children": [
-    //         "rich-text#description"
-    //     ]
-    // },
-    // "rich-text#description": {
-    //     "props": {
-    //         "text": "Descripción Recibe vídeos destacados automáticamente en tu teléfono con la HERO11 Black. Su nuevo sensor de imagen más grande captura más de la escena con mejor calidad de imagen para que puedas subir tus tomas verticales en redes al instante. HyperSmooth 5.0 cuenta con AutoBoost y Bloqueo del horizonte integrados para que consigas las tomas más fluidas e impresionantes. Los nuevos efectos nocturnos te aportan creatividad de noche, y el color de 10 bits da vida a todos tus vídeos. Todo esto hace de la HERO11 Black nuestra GoPro más potente hasta la fecha."
-    //     }
-    // },
-    // "flex-layout.col#details": {
-    //     "title": "info details",
-    //     "children": [
-    //         "rich-text#detail"
-    //     ]
-    // },
-    // "rich-text#detail": {
-    //     "props": {
-    //         "text": "Detalles del producto Incluye una cámara HERO11 Black, un estuche de transporte, una batería recargable Enduro, soportes adhesivos curvos, una hebilla de montaje, un tornillo, un cable USB-C. Sube automáticamente tu contenido a la nube y recibe un vídeo destacado mientras la cargas El nuevo sensor de imagen más grande ofrece un campo de visión más envolvente y amplio. Vídeo cinematográfico a 5,3K60 + 2,7K240 con fotos de 24,7 megapíxeles del vídeo. Increíbles fotos de alta resolución de 27 megapíxeles. Estabilización de vídeo HyperSmooth 5.0 ganadora de un Emmy con Bloqueo del horizonte. Sumergible hasta 10 m y resistente."
-    //     }
-    // },
     //Section: features image
     "flex-layout.row#image-features": {
         "title": "section features image",
@@ -107,7 +83,6 @@
     "flex-layout.row#pdp__section--text-video-product-one": {
         "title": "section text video one",
         "children": [
-            // "rich-text#video-one"
             "image#text-video-one"
         ],
         "props": {}
@@ -119,12 +94,6 @@
             "fullWidth": true
         }
     },
-    // "rich-text#video-one": {
-    //     "title": "Video one text",
-    //     "props": {
-    //         "text": "Vídeos de momentos destacados enviados a tu teléfono. Automáticamente."
-    //     }
-    // },
     //Section: Video one
     "flex-layout.row#pdp__section--video-product-one": {
         "children": [
@@ -149,17 +118,10 @@
     "flex-layout.row#pdp__section--text-video-product-two": {
         "title": "section text video two",
         "children": [
-            // "rich-text#video-two"
             "image#text-video-two"
         ],
         "props": {}
     },
-    // "rich-text#video-two": {
-    //     "title": "Video two text",
-    //     "props": {
-    //         "text": "Una toma. Comparte donde quieras."
-    //     }
-    // },
     "image#text-video-two": {
         "props": {
             "src": "assets/img/text-video-two.png",
@@ -191,17 +153,10 @@
     "flex-layout.row#pdp__section--text-video-product-three": {
         "title": "section text video three",
         "children": [
-            // "rich-text#video-three"
             "image#text-video-three"
         ],
         "props": {}
     },
-    // "rich-text#video-three": {
-    //     "title": "Video three text",
-    //     "props": {
-    //         "text": "Captura allá donde solo una GoPro es capaz de llegar."
-    //     }
-    // },
     "image#text-video-three": {
         "props": {
             "src": "assets/img/text-video-three.png",
@@ -333,29 +288,4 @@
             "fullWidth": false
         }
     }
-    // "flex-layout.row#pdp__section--5,3k": {
-    //     "title": "section",
-    //     "children": [],
-    //     "props": {}
-    // },
-    // "flex-layout.row#pdp__section--hyperview": {
-    //     "title": "section",
-    //     "children": [],
-    //     "props": {}
-    // },
-    // "flex-layout.row#pdp__section--night": {
-    //     "title": "section",
-    //     "children": [],
-    //     "props": {}
-    // },
-    // "flex-layout.row#pdp__section--more-features": {
-    //     "title": "section",
-    //     "children": [],
-    //     "props": {}
-    // },
-    // "flex-layout.row#pdp__section--kit": {
-    //     "title": "section",
-    //     "children": [],
-    //     "props": {}
-    // }
 }

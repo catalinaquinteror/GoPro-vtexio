@@ -1,0 +1,23 @@
+{
+     //Section: Whatsapp and Minicart.
+     "flex-layout.row#home__section-whatsapp-and-minicart": {
+        "title": "Section: Whatsapp and Minicart",
+        "children": [
+            "flex-layout.col#home__section-whatsapp-and-minicart"
+        ],
+        "props": {
+            "blockClass": "home__section-whatsapp-and-minicart"
+        }
+    },
+    "flex-layout.col#home__section-whatsapp-and-minicart": {
+        "children": [
+            "minicart.v2",
+            "whatsapp-button"
+        ]
+    },
+    "whatsapp-button": {
+        "props": {
+            "logo": "assets/img/logo.png"
+        }
+    }
+}

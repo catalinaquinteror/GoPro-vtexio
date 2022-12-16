@@ -34,6 +34,7 @@
         ]
     },
     "rich-text#follow": {
+        "title": "Follow text",
         "props": {
             "text": "SÍGUENOS EN:"
         }
@@ -78,6 +79,7 @@
             }
     },
     "rich-text#payment":{
+        "title": "Payments",
         "props": {
             "text": "MÉTODOS DE PAGO"
         }
@@ -92,6 +94,7 @@
         }
     },
     "rich-text#servicio":{
+        "title": "Customer Sevice",
         "props": {
             "text": "SERVICIO AL CLIENTE"
         }
