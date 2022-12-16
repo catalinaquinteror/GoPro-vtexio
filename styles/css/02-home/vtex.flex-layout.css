@@ -11,42 +11,8 @@
     /* object-fit: contain; */
 }
 
-
-.flexRowContent--main-header-mobile {
-    background-color: #333333;
-}
-
-.flexRowContent--main-header-desktop {
-    background-color: #333333;
-}
-
-.flexRow--footer__container {
-    background-color: black;
-    color: white;
-}
-
 .home__section--call-to-action {
 margin-top: 20%;
-}
-
-
-.flexColChild--video-contacto {
-    display: flex;
-    justify-content: center;
-}
-.flexColChild--form-contacto {
-    display: flex;
-    justify-content: center;
-}
-
-
-.flexColChild--principal-info-product {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    margin-left: 10%;
 }
 
 .flexRowContent--home__section-whatsapp-and-minicart {

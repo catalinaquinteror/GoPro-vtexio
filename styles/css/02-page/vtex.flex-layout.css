@@ -1,0 +1,8 @@
+.flexColChild--video-contacto {
+    display: flex;
+    justify-content: center;
+}
+.flexColChild--form-contacto {
+    display: flex;
+    justify-content: center;
+}
