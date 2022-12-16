@@ -1,0 +1,6 @@
+:global(.vtex-store-components-3-x-carouselGaleryThumbs) :first-child {
+    display        : flex;
+    justify-content: center;
+    height         : 100%;
+    
+  }

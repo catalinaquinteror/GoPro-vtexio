@@ -1,9 +1,3 @@
-.logoContainer--logo {
-    display: flex;
-    justify-content:end;
-    margin-left: 20%;
-}
-
 .imageElementLink--home__image--section-one {
     width: 90%;
     display: flex;
@@ -42,12 +36,6 @@
 }
 .imageElement--home__image--section-one-item-3:hover {
     opacity: 0.8;
-}
-
-.imageElement--image-menu {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .imageElement--home__image--section-three {
@@ -91,12 +79,6 @@
     justify-content: center;
 }
 
-:global(.vtex-store-components-3-x-carouselGaleryThumbs) :first-child {
-    display        : flex;
-    justify-content: center;
-    height         : 100%;
-    
-  }
 
   /* .imageElement--home__slider {
     object-fit: cover;
