@@ -6,9 +6,9 @@
             "title": "GoPro accesories HERO10 & HERO9",
             "blockClass":"home__image--section-one-item-1",
             "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
+                "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+                "newTab": false,
+                "attributeNoFollow": false
             },
             "fullWidth": true
         }
@@ -20,9 +20,9 @@
             "title": "GoPro accesories HERO10 & HERO9",
             "blockClass":"home__image--section-one-item-2",
             "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
+                "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+                "newTab": false,
+                "attributeNoFollow": false
             },
             "fullWidth": true
         }
@@ -34,9 +34,9 @@
             "title": "GoPro accesories HERO10 & HERO9",
             "blockClass":"home__image--section-one-item-3",
             "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
+                "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+                "newTab": false,
+                "attributeNoFollow": false
             },
             "fullWidth": true
         }
@@ -48,9 +48,9 @@
             "title": "GoPro accesories HERO10 & HERO9",
             "blockClass":"home__image--section-two",
             "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
+                "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+                "newTab": false,
+                "attributeNoFollow": false
             }
         }
     },
@@ -61,11 +61,10 @@
             "title": "GoPro accesories HERO10 & HERO9",
             "blockClass":"home__image--section-three",
             "link": {
-                "url": "https://www.google.com",
-                "newTab": true,
-                "attributeNoFollow": true
+                "url": "ladrillo-estructural-prensado-salmon-245x12x6cm/p",
+                "newTab": false,
+                "attributeNoFollow": false
             }
-            // "Width": "200%"
         }
     }
 

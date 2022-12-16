@@ -1,16 +1,13 @@
 {
     "store.home": {
-        "title": "Home",
         "blocks": [
-            "flex-layout.row#home__slider",
-            // "list-context.image-list#home__slider--list",
+            "list-context.image-list#home__slider--list",
             "flex-layout.row#home__section--call-to-action",
             "flex-layout.row#home__section--one",
             "flex-layout.row#home__section--two",
             "flex-layout.row#home__section--three",
-            "responsive-layout.desktop",
-            "responsive-layout.mobile",
             "flex-layout.row#home__section-whatsapp-and-minicart"
+            
         ]
     }
 }
