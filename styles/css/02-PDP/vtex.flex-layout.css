@@ -1,0 +1,8 @@
+.flexColChild--principal-info-product {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}

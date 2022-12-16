@@ -1,0 +1,11 @@
+.logoContainer--logo {
+    display: flex;
+    justify-content:end;
+    margin-left: 20%;
+}
+
+.imageElement--image-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

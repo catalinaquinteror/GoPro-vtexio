@@ -20,7 +20,7 @@ GoPro-vtexio was developed with VTEX IO technology.
 
 ### Step 1
 
-Get into [basic guide config](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-2-basicsetuptodevelopinvtexio) and follow the steps.
+Get into [Basic guide config](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-2-basicsetuptodevelopinvtexio) and follow the steps.
 
 ### Step 2
 
@@ -30,7 +30,7 @@ Clone this repository.
 Edit in `manifest.json` file `vendor` and `name` fields.
 ### Step 4
 
-To use Store Framework it is mandatory has installed `vtex.store-sitemap` and `vtex.store`, checking by execute `vtex link` comand, otherwise execute `vtex install vtex.store-sitemap vtex.store -f` to install them.
+To use Store Framework it is mandatory has installed `vtex.store-sitemap` and `vtex.store`, checking by executing `vtex link`` comand, otherwise execute `vtex install vtex.store-sitemap vtex.store -f` to install them.
 ### Step 5
 
 In case it has installed a predetermined store-theme, run `vtex uninstall` followed by the name, e.g.
@@ -124,4 +124,4 @@ Check builders and dependencies
 
 ### Step 7
 
-Run `vtex link` and after `vtex browse` to see changes at real time.
+Run `vtex link` and after `vtex browse` to see changes in real time.
