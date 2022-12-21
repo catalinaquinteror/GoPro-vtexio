@@ -87,7 +87,9 @@
 },
 "newsletter-input-phone":{
   "props": {
-    "placeholderText": "Mensaje"
+    "placeholderText": "Mensaje",
+    "blockClass": "message",
+    "errorMessage": "Invalid message"
   }
 },
 "newsletter-checkbox-confirmation":{
