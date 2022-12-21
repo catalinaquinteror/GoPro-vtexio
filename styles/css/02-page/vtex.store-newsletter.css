@@ -1,17 +1,29 @@
 .newsletterForm--form-contact {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin: 10%;
 }
 
 .formSubmitContainer {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column ;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
 }
 
 .confirmationCheckboxContainer {
     display: flex;
     justify-content: center;
+}
+
+.phoneInputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-input-phone {
+    height: 30px;
 }

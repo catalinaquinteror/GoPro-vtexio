@@ -4,5 +4,8 @@
 }
 .flexColChild--form-contacto {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
 }
+
